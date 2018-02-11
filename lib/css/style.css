@@ -36,6 +36,9 @@ h2 {
 .anchor {
 	margin-bottom: 3em;
 }
+#cookie-prevent {
+	z-index: 10000000;
+}
 /* SCROLLBAR CUSTOM */
 ::-webkit-scrollbar {
   width: 4px;
@@ -233,6 +236,30 @@ footer table, footer table tr {
 	#menu a {
 		color: white;
 		text-decoration: none;
+	}
+	.menu {
+		display: block !important;
+		/* Animate on Open */
+		-webkit-animation-name: openMenu;
+		-webkit-animation-duration: 1.5s; 
+		-moz-animation-name: openMenu;
+		-moz-animation-duration: 1.5s; 
+		-o-animation-name: openMenu;
+		-o-animation-duration: 1.5s; 
+		animation-name: openMenu;
+		animation-duration: 1.5s;
+	}
+	.menu-bye {
+		display: block !important;
+		/* Animate on Close */
+		-webkit-animation-name: closeMenu;
+		-webkit-animation-duration: 1.5s;
+		-moz-animation-name: closeMenu;
+		-moz-animation-duration: 1.5s; 
+		-o-animation-name: closeMenu;
+		-o-animation-duration: 1.5s;
+		animation-name: closeMenu;
+		animation-duration: 1.5s;
 	}
 }
 
