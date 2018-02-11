@@ -281,7 +281,7 @@ footer table, footer table tr {
 }
 @media (min-width: 1000px) {
 	.project-item {
-		width: calc(33% - 2em);
+		width: calc(33% - 4em);
 	}
 	.project-logo {
 		height: 18vw;
@@ -289,7 +289,7 @@ footer table, footer table tr {
 }
 @media (max-width: 999px) and (min-width: 600px) {
 	.project-item {
-		width: calc(49.5% - 2em);
+		width: calc(49.5% - 4em);
 	}
 	.project-logo {
 		height: 27vw;
@@ -297,7 +297,7 @@ footer table, footer table tr {
 }
 @media (max-width: 599px) {
 	.project-item {
-		width: calc(99.5% - 2em);
+		width: calc(99.5% - 4em);
 	}
 	.project-logo {
 		height: 56vw;
