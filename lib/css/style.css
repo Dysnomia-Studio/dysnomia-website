@@ -237,6 +237,17 @@ footer table, footer table tr {
 		color: white;
 		text-decoration: none;
 	}
+	/* Animate on Open */
+	@-webkit-keyframes openMenu { from { width: 1px; height: 1px; opacity: 0; } to { width: 100%; height: 100%; opacity: 1; }  }
+	@-moz-keyframes openMenu { from { width: 1px; height: 1px; opacity: 0; } to { width: 100%; height: 100%; opacity: 1; }  }
+	@-o-keyframes openMenu { from { width: 1px; height: 1px; opacity: 0; } to { width: 100%; height: 100%; opacity: 1; }  }
+	@keyframes openMenu { from { width: 1px; height: 1px; opacity: 0; } to { width: 100%; height: 100%; opacity: 1; }  }
+
+	@-webkit-keyframes closeMenu { from { width: 100%; height: 100%; opacity: 1; } to { width: 1px; height: 1px; opacity: 0; }  }
+	@-moz-keyframes closeMenu { from { width: 100%; height: 100%; opacity: 1; } to { width: 1px; height: 1px; opacity: 0; }  }
+	@-o-keyframes closeMenu { from { width: 100%; height: 100%; opacity: 1; } to { width: 1px; height: 1px; opacity: 0; }  }
+	@keyframes closeMenu { from { width: 100%; height: 100%; opacity: 1; } to { width: 1px; height: 1px; opacity: 0; }  }
+
 	.menu {
 		display: block !important;
 		/* Animate on Open */
