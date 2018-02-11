@@ -237,15 +237,15 @@ footer table, footer table tr {
 		text-decoration: none;
 	}
 	/* Animate on Open */
-	@-webkit-keyframes openMenu { from { width: 1px; height: 100%; opacity: 0; } to { width: 65%; height: 100%; opacity: 1; }  }
-	@-moz-keyframes openMenu { from { width: 1px; height: 100%; opacity: 0; } to { width: 65%; height: 100%; opacity: 1; }  }
-	@-o-keyframes openMenu { from { width: 1px; height: 100%; opacity: 0; } to { width: 65%; height: 100%; opacity: 1; }  }
-	@keyframes openMenu { from { width: 1px; height: 100%; opacity: 0; } to { width: 65%; height: 100%; opacity: 1; }  }
+	@-webkit-keyframes openMenu { from { left: -65%; opacity: 0; } to { left: 0; opacity: 1; }  }
+	@-moz-keyframes openMenu { from { left: -65%; opacity: 0; } to { left: 0; opacity: 1; }  }
+	@-o-keyframes openMenu { from { left: -65%; opacity: 0; } to { left: 0; opacity: 1; }  }
+	@keyframes openMenu { from { left: -65%; opacity: 0; } to { left: 0; opacity: 1; }  }
 
-	@-webkit-keyframes closeMenu { from { width: 65%; height: 100%; opacity: 1; } to { width: 1px; height: 100%; opacity: 0; }  }
-	@-moz-keyframes closeMenu { from { width: 65%; height: 100%; opacity: 1; } to { width: 1px; height: 100%; opacity: 0; }  }
-	@-o-keyframes closeMenu { from { width: 65%; height: 100%; opacity: 1; } to { width: 1px; height: 100%; opacity: 0; }  }
-	@keyframes closeMenu { from { width: 65%; height: 100%; opacity: 1; } to { width: 1px; height: 100%; opacity: 0; }  }
+	@-webkit-keyframes closeMenu { from { left: 0; opacity: 1; } to { left: -65%; opacity: 0; }  }
+	@-moz-keyframes closeMenu { from { left: 0; opacity: 1; } to { left: -65%; opacity: 0; }  }
+	@-o-keyframes closeMenu { from { left: 0; opacity: 1; } to { left: -65%; opacity: 0; }  }
+	@keyframes closeMenu { from { left: 0; opacity: 1; } to { left: -65%; opacity: 0; }  }
 
 	.menu {
 		display: block !important;
