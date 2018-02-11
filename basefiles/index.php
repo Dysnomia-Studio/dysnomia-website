@@ -30,7 +30,7 @@
 			<div class="project-list">
 				<div class="project-item">
 					<span class="project-title"><a href="https://howtoopen.me" target="_blank">HowToOpen.me</a></span>
-					<span class="project-time">Depuis 2018</span><br/>
+					<span class="project-time">Depuis 2018</span><br/><br/>
 					<span class="project-type">Outil</span><br/>
 					<span class="project-desc">HowToOpen.me est un site repertoriant les differents logiciels afin de visualiser, d'éditer, un fichier selon son extension.</span><br/><br/>
 					<span class="project-logo"><a href="https://howtoopen.me" target="_blank"><img src="img/icons/howtoopenme.jpg" alt="howtoopen.me"></a></span>
@@ -39,7 +39,7 @@
 
 				<div class="project-item">
 					<span class="project-title"><a href="https://dehash.me" target="_blank">Dehash.me</a></span>
-					<span class="project-time">Depuis 2017</span><br/>
+					<span class="project-time">Depuis 2017</span><br/><br/>
 					<span class="project-type">Outil</span><br/>
 					<span class="project-desc">Dehash.me est un site permettant de hash (encrypter sans pouvoir decrypter), mais aussi de "dehash". Afin de retourner ces hash, il utilise un dictionnaire grandissant chaque jour, repertoriant le resultat hashé de chaque mot.</span><br/><br/>
 					<span class="project-logo"><a href="https://dehash.me"><img src="img/icons/dehashme.jpg" alt="dehash.me"></a></span>

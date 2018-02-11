@@ -270,6 +270,8 @@ footer table, footer table tr {
 .project-item {
 	position: relative;
 
+	background: #fff;
+
 	margin: 1em;
 	padding: 0;
 
@@ -306,7 +308,7 @@ footer table, footer table tr {
 }
 .project-type, .project-url {
 	display: block;
-	width: 100%;
+	width: calc(100% - 2em);
 	text-align: center;
 }
 .project-url {
@@ -337,7 +339,7 @@ footer table, footer table tr {
 }
 .project-logo img {
 	display: inline-block;
-	max-width: 100%;
+	max-width: calc(100% - 2em);
 	position: absolute;
 	bottom: 5.3em;
 }
