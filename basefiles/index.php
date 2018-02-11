@@ -3,11 +3,11 @@
 		<nav id="menu">
 			<ul>
 				<li><a href="/">Dysnomia</a></li> <!-- @ADD: Logo -->
-				<li><a href="#whoami">Qui sommes nous ?</a></li>
-				<li><a href="#projects">Projets</a></li>
-				<!--<li><a href="#prestations">Prestations</a></li>-->
-				<li><a href="#contact">Contact</a></li>
-				<li><a href="#partners">Partenaires</a></li>
+				<li><a class="menuAncre" href="#whoami">Qui sommes nous ?</a></li>
+				<li><a class="menuAncre" href="#projects">Projets</a></li>
+				<!--<li><a class="menuAncre" href="#prestations">Prestations</a></li>-->
+				<li><a class="menuAncre" href="#contact">Contact</a></li>
+				<li><a class="menuAncre" href="#partners">Partenaires</a></li>
 			</ul>
 		</nav>
 
