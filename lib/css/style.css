@@ -313,7 +313,7 @@ footer table, footer table tr {
 }
 .project-url {
 	position: absolute;
-	bottom: 0;
+	bottom: 1em;
 	height: 5em;
 }
 .project-url a {
@@ -335,13 +335,12 @@ footer table, footer table tr {
 }
 .project-logo {
 	display: block;
-	vertical-align: bottom;
 }
 .project-logo img {
 	display: inline-block;
 	max-width: calc(100% - 2em);
 	position: absolute;
-	bottom: 5.3em;
+	bottom: 6.3em;
 }
 
 /**
