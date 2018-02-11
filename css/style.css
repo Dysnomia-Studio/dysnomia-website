@@ -194,7 +194,8 @@ footer table, footer table tr {
 		top: 0.5em;
 		left: 0.5em;
 
-		max-height: 3xem;
+		max-height: 3em;
+		max-width: 19%;
 
 		display: block;
 
@@ -205,6 +206,33 @@ footer table, footer table tr {
 	}
 	#menu {
 		display: none;
+		
+		position: fixed;
+		top: 0;
+		left: 0;
+
+		width: 65%;
+		height: 100%;
+
+		padding-top: 3.5em;
+
+		z-index: 99;
+
+		font-size: 1.2em;
+
+		background-color: rgba(0,0,0,0.75);
+
+		overflow-y: auto;
+	}
+	#menu ul {
+		list-style: none;
+	}
+	#menu li {
+		margin: 1em 0;
+	}
+	#menu a {
+		color: white;
+		text-decoration: none;
 	}
 }
 

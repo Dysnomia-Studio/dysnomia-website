@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Dysnomia Studio</title>
-		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="lib/style.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-	</head>
-	<body>
 		<div id="menu-back"></div>
 		<img src="img/hamburger.png" id="hamburger">
 		<nav id="menu">
