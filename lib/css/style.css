@@ -111,7 +111,7 @@ footer table, footer table tr {
  * Index - Pictures sections
  */
 #index-top {
-	background-image: url(../img/backgrounds/code.jpg);
+	background-image: url(../../img/backgrounds/code.jpg);
 	z-index: 9;
 	color: white;
 	height: 100vh;
