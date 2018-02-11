@@ -1,21 +1,5 @@
-<?php
-if(!isset($_COOKIE['rememberMe']) || ($_COOKIE['rememberMe'] != false && $_COOKIE['rememberMe'] != "false")) {
-    $expTime = 2678400; // One month
-} else {
-    $expTime = 1800; // 30 min
-}
-
-ini_set('session.cookie_domain', '.galactae.eu' );
-ini_set('session.cookie_lifetime ', $expTime); // Set expiration to 1 month
-ini_set('session.gc_maxlifetime', $expTime); // Set expiration to 1 month
-
+<?php 
 include('./lib/init.php');
-
-if(isset($_COOKIE['galactae-phpsessid']) && $_COOKIE['galactae-phpsessid'] != "") {
-    session_id($_COOKIE['galactae-phpsessid']);
-}
-setcookie ( "galactae-phpsessid", session_id(), time()+$expTime,"/", ".galactae.eu");
-setcookie ( "galactae-phpsessid", session_id(), time()+$expTime,"/", "galactae.eu");
 
 // Cache preparation
 $_SESSION['lang'] = (isset($_SESSION['lang']))?$_SESSION['lang']:'en';
@@ -38,11 +22,13 @@ $blacklist = $config['cache_blacklist'];
 // Fichier existant ET temps depuis dernier cache inferieur a l'expiration ET pas dans la blacklist
 if(file_exists($cache) && filemtime($cache) > $expire && $config['cache_activated'] && array_search($currentpage,$blacklist)===false && $cached==1) { 
     readfile($cache);
-}
-elseif(array_search($currentpage,$blacklist)!==false) {
-    include_once('basefiles/'.$currentpage.'.php'); // We don't need to cache it
-}
-else {
+} elseif(array_search($currentpage,$blacklist)!==false || !$config['cache_activated']) {
+    if(!file_exists('basefiles/'.$currentpage.'.php')) {
+        include_once('errors/404.html');
+    } else { 
+        include_once('basefiles/'.$currentpage.'.php'); // We don't need to cache it
+    }
+} else {
     if(!file_exists('basefiles/'.$currentpage.'.php')) {
         include_once('errors/404.html');
     } else {    
