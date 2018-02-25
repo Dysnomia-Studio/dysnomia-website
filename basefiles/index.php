@@ -7,7 +7,7 @@
 				<li><a class="menuAncre" href="#projects">Projets</a></li>
 				<!--<li><a class="menuAncre" href="#prestations">Prestations</a></li>-->
 				<li><a class="menuAncre" href="#contact">Contact</a></li>
-				<li><a class="menuAncre" href="#partners">Partenaires</a></li>
+				<<!--li><a class="menuAncre" href="#partners">Partenaires</a></li>-->
 			</ul>
 		</nav>
 
