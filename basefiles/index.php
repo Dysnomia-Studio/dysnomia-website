@@ -18,7 +18,7 @@
 
 		<div id="whoami" class="anchor"></div>
 		<section id="index-comp-desc" class="corps-text">
-			<h2>Qui sommes nous ?</h2>
+			<h2>Qui sommes-nous ?</h2>
 			Dysnomia est une entreprise fondée en 2018 par Axel Soupé alias Elanis, le but de cette entreprise est de créer un réseau de sites web dans différents domaines tels que le jeu-vidéo, les outils de développement, le divertissement, etc Tout ces services sont crées autour d'une même idée fondatrice: rendre les contenus accessibles facilement, gratuitement et légalement à tout un chacun.<br/>
 			<br/>
 			Actuellement, l'entreprise est composée d'une seule personne, moi, Axel Soupé, mais j'espère pouvoir agrandir mon projet rapidement.<br/>
@@ -32,7 +32,7 @@
 					<span class="project-title"><a href="https://howtoopen.me" target="_blank">HowToOpen.me</a></span>
 					<span class="project-time">Depuis 2018</span><br/><br/>
 					<span class="project-type">Outil</span><br/>
-					<span class="project-desc">HowToOpen.me est un site repertoriant les differents logiciels afin de visualiser, d'éditer, un fichier selon son extension.</span><br/><br/>
+					<span class="project-desc">HowToOpen.me est un site répertoriant les différents logiciels afin de visualiser, d'éditer, un fichier selon son extension.</span><br/><br/>
 					<span class="project-logo"><a href="https://howtoopen.me" target="_blank"><img src="img/icons/howtoopenme.jpg" alt="howtoopen.me"></a></span>
 					<span class="project-url"><a href="https://howtoopen.me" target="_blank">www.howtoopen.me</a></span><br/>
 				</div>
@@ -41,7 +41,7 @@
 					<span class="project-title"><a href="https://dehash.me" target="_blank">Dehash.me</a></span>
 					<span class="project-time">Depuis 2017</span><br/><br/>
 					<span class="project-type">Outil</span><br/>
-					<span class="project-desc">Dehash.me est un site permettant de hash (encrypter sans pouvoir decrypter), mais aussi de "dehash". Afin de retourner ces hash, il utilise un dictionnaire grandissant chaque jour, repertoriant le resultat hashé de chaque mot.</span><br/><br/>
+					<span class="project-desc">Dehash.me est un site permettant de hash (chiffrer sans pouvoir dechiffrer), mais aussi de "dehash". Afin de retourner ces hash, il utilise un dictionnaire grandissant chaque jour, répertoriant le résultat hashé de chaque mot.</span><br/><br/>
 					<span class="project-logo"><a href="https://dehash.me"><img src="img/icons/dehashme.jpg" alt="dehash.me"></a></span>
 					<span class="project-url"><a href="https://dehash.me">www.dehash.me</a></span><br/>
 				</div>
@@ -50,7 +50,7 @@
 					<span class="project-title"><a href="https://galactae.eu" target="_blank">Galactae: Space Age Dawn</a></span>
 					<span class="project-time">Depuis 2016</span><br/><br/>
 					<span class="project-type">Jeu navigateur & mobile</span><br/>
-					<span class="project-desc">Galactae: Space Age Dawn est un jeu de stratégie par navigateur novateur, en effet, le jeu est develloppé dans l'optique d'avoir un maximum de gameplay (facons de jouer) differentes. Vous y incarnez l'un des 3 dirigants proposés afin de faire évoluer votre nation et faire grandir votre influence dans la galaxie.</span><br/><br/>
+					<span class="project-desc">Galactae: Space Age Dawn est un jeu de stratégie par navigateur novateur, en effet, le jeu est developpé dans l'optique d'avoir un maximum de gameplay (façons de jouer) différents. Vous y incarnez l'un des 3 dirigeants proposés afin de faire évoluer votre nation et faire grandir votre influence dans la galaxie.</span><br/><br/>
 					<span class="project-logo"><a href="https://galactae.eu" target="_blank"><img src="img/icons/galactae.jpg" alt="galactae.eu"></a></span>
 					<span class="project-url">
 						<a href="https://galactae.eu" target="_blank">www.galactae.eu</a><br/><br/>
