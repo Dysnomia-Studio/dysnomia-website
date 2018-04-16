@@ -7,7 +7,7 @@
 				<li><a class="menuAncre" href="#projects">Projets</a></li>
 				<!--<li><a class="menuAncre" href="#prestations">Prestations</a></li>-->
 				<li><a class="menuAncre" href="#contact">Contact</a></li>
-				<<!--li><a class="menuAncre" href="#partners">Partenaires</a></li>-->
+				<!--<li><a class="menuAncre" href="#partners">Partenaires</a></li>-->
 			</ul>
 		</nav>
 
@@ -19,9 +19,9 @@
 		<div id="whoami" class="anchor"></div>
 		<section id="index-comp-desc" class="corps-text">
 			<h2>Qui sommes nous ?</h2>
-			Dysnomia est une entreprise fondée en 2018 par Axel Soupé alias Elanis, le but de cette entreprise est de créer un reseau de sites web dans differents domaines tels que le jeu-video, les outils de develloppement, le divertissement, etc Tout ces services sont crées autour d'une même idée fondatrice: rendre les contenus accessibles facilement, gratuitement et legalement à tout un chacun.<br/>
+			Dysnomia est une entreprise fondée en 2018 par Axel Soupé alias Elanis, le but de cette entreprise est de créer un réseau de sites web dans différents domaines tels que le jeu-vidéo, les outils de développement, le divertissement, etc Tout ces services sont crées autour d'une même idée fondatrice: rendre les contenus accessibles facilement, gratuitement et légalement à tout un chacun.<br/>
 			<br/>
-			Actuellement, l'entreprise est composé d'une seule personne, moi, Axel Soupé, mais j'espère pouvoir agrandir mon projet rapidement.<br/>
+			Actuellement, l'entreprise est composée d'une seule personne, moi, Axel Soupé, mais j'espère pouvoir agrandir mon projet rapidement.<br/>
 		</section>
 
 		<div id="projects" class="anchor"></div>
