@@ -60,7 +60,7 @@
 					</span><br/>
 				</div>
 
-				<div class="project-item">
+				<!--<div class="project-item">
 					<span class="project-title"><a href="https://randomeme.xyz" target="_blank">Randomeme</a></span>
 					<span class="project-time">Depuis 2016</span><br/><br/>
 					<span class="project-type">Divertissement</span><br/>
@@ -73,7 +73,7 @@
 						<a target="_blank"><img src="img/ios-soon.png" alt="ios app"></a>
 						<a target="_blank"><img src="img/windows-store-soon.png" alt="windows app"></a>
 					</span><br/>
-				</div>
+				</div>-->
 			</div>
 		</section>
 
