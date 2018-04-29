@@ -2,10 +2,9 @@
 		<img src="img/hamburger.png" id="hamburger">
 		<nav id="menu">
 			<ul>
-				<li><a href="/">Dysnomia</a></li> <!-- @ADD: Logo -->
+				<li><a href="/">Dysnomia</a></li>
 				<li><a class="menuAncre" href="#whoami">Qui sommes nous ?</a></li>
 				<li><a class="menuAncre" href="#projects">Projets</a></li>
-				<!--<li><a class="menuAncre" href="#prestations">Prestations</a></li>-->
 				<li><a class="menuAncre" href="#contact">Contact</a></li>
 				<!--<li><a class="menuAncre" href="#partners">Partenaires</a></li>-->
 			</ul>
@@ -59,28 +58,8 @@
 						<a target="_blank"><img src="img/windows-store-soon.png" alt="windows app"></a>
 					</span><br/>
 				</div>
-
-				<!--<div class="project-item">
-					<span class="project-title"><a href="https://randomeme.xyz" target="_blank">Randomeme</a></span>
-					<span class="project-time">Depuis 2016</span><br/><br/>
-					<span class="project-type">Divertissement</span><br/>
-					<span class="project-desc">Le principe de ce site web est simple : vous donner aléatoirement un mème : une vidéo ou une image liée a une musique.<br/><u>Mais qu'est-ce qu'un mème ?</u><br/>Un mème internet (communément appelé "mème") est un anglicisme venant d'« Internet meme » utilisé pour décrire un élément ou un phénomène repris et décliné en masse sur internet. (<a href="https://fr.wikipedia.org/wiki/Mème_Internet" target="_blank">Article Wikipédia</a>).Le but d'un mème est de créer le rire ou l'amusement chez le lecteur ou spectateur.
-					</span><br/><br/>
-					<span class="project-logo"><a href="https://randomeme.xyz" target="_blank"><img src="img/icons/randomeme.jpg" alt="randomeme.xyz"></a></span>
-					<span class="project-url">
-						<a href="https://randomeme.xyz" target="_blank">www.randomeme.xyz</a><br/><br/>
-						<a href="https://play.google.com/store/apps/details?id=eu.elanis.randomeme" target="_blank"><img src="img/android.png" alt="android app"></a>
-						<a target="_blank"><img src="img/ios-soon.png" alt="ios app"></a>
-						<a target="_blank"><img src="img/windows-store-soon.png" alt="windows app"></a>
-					</span><br/>
-				</div>-->
 			</div>
 		</section>
-
-		<!--<div id="prestations" class="anchor"></div>
-		<section id="index-prestations" class="corps">
-			<h2>Prestations</h2>
-		</section>-->
 
 		<div id="contact" class="anchor"></div>
 		<section id="index-contact" class="corps">
@@ -114,7 +93,7 @@
 						<ul>
 							<li><h3>Galactae</h3></li>
 							<li><a href="https://galactae.eu">Site officiel</a></li>
-							<li><a href="https://galactae.eu/medias">Gallerie</a></li>
+							<li><a href="https://galactae.eu/medias">Galerie</a></li>
 							<li><a href="https://galactae.eu/blog">DevBlog</a></li>
 							<li><a href="https://forum.galacte.elanis.eu/">Forum</a></li>
 						</ul>
@@ -124,8 +103,7 @@
 						<ul>
 							<li><h3>Autres sites</h3></li>
 							<li><a href="https://dehash.me">Dehash.me</a></li>
-							<li><a href="https://howtoopen.me">HowToOpenMe</a></li>
-							<li><a href="https://randomeme.xyz">Randomeme</a></li>
+							<li><a href="https://howtoopen.me">HowToOpen.Me</a></li>
 						</ul>
 					</td>
 
@@ -142,15 +120,14 @@
 					<td>
 						<ul>
 							<li><h3>Divers</h3></li>
-							<li><a href="https://elanis.eu">Elanis</a></li>
-							<li><a href="https://bugs.elanis.eu">Bug tracker</a></li>
+							<li><a href="https://bugs.dysnomia.studio">Bug tracker</a></li>
 						</ul>
 					</td>
 				</tr>
 			</table>
 			<table>
 				<tr class="second-footer">
-					<td>Dysnomia - Société au capital de XXXX€ - SIREN: .........<br/>
+					<td>Dysnomia <!-- - Société au capital de XXXX€ - SIREN: ......... --><br/>
 					Copyright 2018 - Tout droits reservés</td>
 				</tr>
 			</table>
