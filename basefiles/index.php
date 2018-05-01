@@ -47,7 +47,7 @@
 
 				<div class="project-item">
 					<span class="project-title"><a href="https://galactae.eu" target="_blank">Galactae: Space Age Dawn</a></span>
-					<span class="project-time">Depuis 2016</span><br/><br/>
+					<span class="project-time"><span class="project-time">Depuis 2016<br>Sort<!--i--> en 2018</span></span><br/><br/>
 					<span class="project-type">Jeu navigateur & mobile</span><br/>
 					<span class="project-desc">Galactae: Space Age Dawn est un jeu de stratégie par navigateur novateur, en effet, le jeu est developpé dans l'optique d'avoir un maximum de gameplay (façons de jouer) différents. Vous y incarnez l'un des 3 dirigeants proposés afin de faire évoluer votre nation et faire grandir votre influence dans la galaxie.</span><br/><br/>
 					<span class="project-logo"><a href="https://galactae.eu" target="_blank"><img src="img/icons/galactae.jpg" alt="galactae.eu"></a></span>
