@@ -70,7 +70,8 @@
 				<input type="text" name="mail" placeholder="Mail" required><br/><br/>
 				<select name="objet">
 					<option disabled selected>Objet du message</option>
-					<option value="randomeme">Randomeme</option>
+					<option value="partner">Partenariat</option>
+					<option value="galactae" disabled>Galactae (cf. site officiel)</option>
 					<option value="dehashme">Dehash.me</option>
 					<option value="howtoopenme">Howtoopen.me</option>
 					<option value="autre">Autre</option>
@@ -95,7 +96,7 @@
 							<li><a href="https://galactae.eu">Site officiel</a></li>
 							<li><a href="https://galactae.eu/medias">Galerie</a></li>
 							<li><a href="https://galactae.eu/blog">DevBlog</a></li>
-							<li><a href="https://forum.galacte.elanis.eu/">Forum</a></li>
+							<li><a href="https://forum.galactae.elanis.eu/">Forum</a></li>
 						</ul>
 					</td>
 
