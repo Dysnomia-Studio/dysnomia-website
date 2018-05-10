@@ -3,7 +3,7 @@
 		<nav id="menu">
 			<ul>
 				<li><a href="/">Dysnomia</a></li>
-				<li><a class="menuAncre" href="#whoami"></a><?= MENU_WHOAMI ?></li>
+				<li><a class="menuAncre" href="#whoami"><?= MENU_WHOAMI ?></a></li>
 				<li><a class="menuAncre" href="#projects"><?= MENU_PROJECTS ?></a></li>
 				<li><a class="menuAncre" href="#contact"><?= MENU_CONTACT ?></a></li>
 				<!--<li><a class="menuAncre" href="#partners"><?= MENU_PARTNERS ?></a></li>-->
