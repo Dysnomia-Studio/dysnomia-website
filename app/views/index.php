@@ -7,8 +7,26 @@
 				<li><a class="menuAncre" href="#projects"><?= MENU_PROJECTS ?></a></li>
 				<li><a class="menuAncre" href="#contact"><?= MENU_CONTACT ?></a></li>
 				<!--<li><a class="menuAncre" href="#partners"><?= MENU_PARTNERS ?></a></li>-->
+				<li><form method="post" id="language-form">
+					<div id="language-list"></div>
+					<input type="text" id="selected-language" name="selected-language">
+				</form>
+				</li>
 			</ul>
 		</nav>
+		<script type="text/javascript" src="js/iconselect/control/iconselect.js"></script>
+		<script type="text/javascript" src="js/iconselect/iscroll.js"></script>
+		<script type="text/javascript" src="js/language-list.js"></script>
+		<script type="text/javascript" src="js/hamburger.js"></script>
+		<?php 
+		if($lang->getLanguage()=='en') { ?>
+		<script type="text/javascript">
+			window.addEventListener('load', function(){
+					changed--;
+					iconSelect.setSelectedIndex(1);
+			});
+		</script>
+		<?php } ?>
 
 		<section id="index-top" class="corps">
 			<h1>Dysnomia</h1>
@@ -131,5 +149,3 @@
 				</tr>
 			</table>
 		</footer>
-	</body>
-</html>

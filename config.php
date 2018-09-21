@@ -2,7 +2,7 @@
 $config = array(
 	"mongoURL" => "",
 	"languageList" => [
-		//'en' => 'English',
+		'en' => 'English',
 		'fr' => 'Francais',
 		//'de' => 'Deutsch',
 		//'ru' => 'русский'
