@@ -7,6 +7,7 @@
 				<li><a class="menuAncre" href="#projects"><?= MENU_PROJECTS ?></a></li>
 				<li><a class="menuAncre" href="#contact"><?= MENU_CONTACT ?></a></li>
 				<!--<li><a class="menuAncre" href="#partners"><?= MENU_PARTNERS ?></a></li>-->
+				<li><a class="menuAncre" target="_blank" href="https://discord.gg/c8aARey">Discord</a></li>
 				<li><form method="post" id="language-form">
 					<div id="language-list"></div>
 					<input type="text" id="selected-language" name="selected-language">
