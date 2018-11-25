@@ -36,6 +36,9 @@ define('CONTACT_CF_OFF_SITE','see official website');
 define('CONTACT_OTHERS','Other');
 define('CONTACT_ENVOYER','Send');
 
+define('CONTACT_OK','The message has been sent !');
+define('CONTACT_PAS_OK','Error: the message has not been sent !');
+
 // Footer
 define('FOOTER_OFF_WEBSITE','Official website');
 define('FOOTER_GALACTAE_GALERIE','Gallery');

@@ -82,7 +82,12 @@
 		<section id="index-contact" class="corps">
 			<h2><?= CONTACT_TITLE ?></h2>
 			
-			<form method="post" action="contact">
+			<?php if(isset($contactMessage)) {
+				echo $contactMessage;
+				echo '<br/><br/><br/>';
+			}?>
+
+			<form method="post" action="contact#contact">
 				<input type="text" name="name" placeholder="Nom" required>
 				<input type="text" name="mail" placeholder="Mail" required><br/><br/>
 				<select name="objet">
@@ -94,6 +99,8 @@
 					<option value="autre"><?= CONTACT_OTHERS ?></option>
 				</select><br/><br/>
 				<textarea name="message"></textarea><br/>
+				<script src='https://www.google.com/recaptcha/api.js'></script>
+				<div class="g-recaptcha" data-sitekey="***REMOVED***"></div>
 				<input type="submit" value="<?= CONTACT_ENVOYER ?>">
 			</form>
 		</section>
