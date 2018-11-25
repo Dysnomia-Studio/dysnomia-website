@@ -434,3 +434,7 @@ footer a {
 #index-contact input[type=submit] {
 	margin-top: 0.5em;
 }
+.g-recaptcha {
+	margin: 0 auto;
+	width: 304px;
+}
