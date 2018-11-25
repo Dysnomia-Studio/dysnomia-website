@@ -152,7 +152,7 @@
 			</table>
 			<table>
 				<tr class="second-footer">
-					<td>Dysnomia <!-- - Société au capital de XXXX€ - SIREN: ......... <?= $_SERVER["REMOTE_ADDR"] ?> --><br/>
+					<td>Dysnomia <!-- - Société au capital de XXXX€ - SIREN: ......... --><br/>
 					Copyright 2018 - <?= FOOTER_ALL_RIGHT_RESERVED ?></td>
 				</tr>
 			</table>
