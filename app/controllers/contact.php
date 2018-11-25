@@ -12,7 +12,7 @@
 		$reCaptcha = new ReCaptcha('***REMOVED***');
 
 		$resp = $reCaptcha->verifyResponse(
-			$_SERVER['REMOTE_ADDR'],
+			Web::get_client_ip(),
 			$_POST['g-recaptcha-response']
 			);
 		if ($resp != null && $resp->success) {
