@@ -8,13 +8,22 @@
 			$variablesPost[htmlspecialchars(trim($key), ENT_QUOTES | ENT_HTML5, 'UTF-8')] = htmlspecialchars(trim($value), ENT_QUOTES | ENT_HTML5, 'UTF-8');
 		}
 
+		$url = 'https://www.google.com/recaptcha/api/siteverify';
+		$data = array(
+			'secret' => '***REMOVED***',
+			'response' => $_POST["g-recaptcha-response"]
+		);
+		$options = array(
+			'http' => array (
+				'method' => 'POST',
+				'content' => http_build_query($data)
+			)
+		);
+		$context  = stream_context_create($options);
+		$verify = file_get_contents($url, false, $context);
+		$resp=json_decode($verify);
 
-		$reCaptcha = new ReCaptcha('***REMOVED***');
 
-		$resp = $reCaptcha->verifyResponse(
-			Web::get_client_ip(),
-			$_POST['g-recaptcha-response']
-			);
 		if ($resp != null && $resp->success) {
 			require_once './lib/swiftmailer/swift_required.php';
 
