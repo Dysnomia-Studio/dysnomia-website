@@ -24,7 +24,7 @@
 		$resp=json_decode($verify);
 
 		if ($resp != null && $resp->success) {
-			require_once './lib/swiftmailer/swift_required.php';
+			require_once '../lib/swiftmailer/swift_required.php';
 
 			// Create the Transport
 		    $transport = Swift_SmtpTransport::newInstance('***REMOVED***', 587, 'tls')
