@@ -27,10 +27,11 @@
 			require_once './lib/swiftmailer/swift_required.php';
 
 			// Create the Transport
-			$transport = Swift_SmtpTransport::newInstance('***REMOVED***', 465, 'ssl')
-			  ->setUsername('***REMOVED***')
-			  ->setPassword('***REMOVED***')
-			  ;
+		    $transport = Swift_SmtpTransport::newInstance('***REMOVED***', 587, 'tls')
+		      ->setUsername('***REMOVED***')
+		      ->setPassword('***REMOVED***')
+		      ->setStreamOptions(array('ssl' => array('allow_self_signed' => true, 'verify_peer_name' => false, 'verify_peer' => false)))
+		      ;
 
 			// Create the Mailer using your created Transport
 			$mailer = Swift_Mailer::newInstance($transport);
