@@ -11,7 +11,7 @@
 		$url = 'https://www.google.com/recaptcha/api/siteverify';
 		$data = array(
 			'secret' => '***REMOVED***',
-			'response' => $_POST["g-recaptcha-response"]
+			'response' => $variablesPost["g-recaptcha-response"]
 		);
 		$options = array(
 			'http' => array (
@@ -22,7 +22,6 @@
 		$context  = stream_context_create($options);
 		$verify = file_get_contents($url, false, $context);
 		$resp=json_decode($verify);
-
 
 		if ($resp != null && $resp->success) {
 			require_once './lib/swiftmailer/swift_required.php';
