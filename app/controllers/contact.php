@@ -8,6 +8,8 @@
 			$variablesPost[htmlspecialchars(trim($key), ENT_QUOTES | ENT_HTML5, 'UTF-8')] = htmlspecialchars(trim($value), ENT_QUOTES | ENT_HTML5, 'UTF-8');
 		}
 
+		$variablesPost["g-recaptcha-response"] = (isset($variablesPost["g-recaptcha-response"])) ? $variablesPost["g-recaptcha-response"] : '';
+
 		$url = 'https://www.google.com/recaptcha/api/siteverify';
 		$data = array(
 			'secret' => '***REMOVED***',
