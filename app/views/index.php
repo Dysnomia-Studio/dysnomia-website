@@ -1,5 +1,5 @@
 		<div id="menu-back"></div>
-		<img src="img/hamburger.png" id="hamburger">
+		<img src="img/hamburger.png" id="hamburger" alt="menu">
 		<nav id="menu">
 			<ul>
 				<li><a href="/">Dysnomia</a></li>
@@ -19,7 +19,7 @@
 		<script type="text/javascript" src="js/iconselect/iscroll.js"></script>
 		<script type="text/javascript" src="js/language-list.js"></script>
 		<script type="text/javascript" src="js/hamburger.js"></script>
-		<?php 
+		<?php
 		if($lang->getLanguage()=='en') { ?>
 		<script type="text/javascript">
 			window.addEventListener('load', function(){
@@ -114,7 +114,7 @@
 		<footer>
 			<table>
 				<tr class="first-footer">
-					<td>		
+					<td>
 						<ul>
 							<li><h3>Galactae</h3></li>
 							<li><a href="https://galactae.eu"><?= FOOTER_OFF_WEBSITE ?></a></li>

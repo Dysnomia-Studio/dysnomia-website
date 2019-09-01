@@ -1,5 +1,5 @@
 <?php
-	if(isset($_POST['message'],$_POST['name'],$_POST['mail']) && 
+	if(isset($_POST['message'],$_POST['name'],$_POST['mail']) &&
 		!empty($_POST['message']) &&
 		!empty($_POST['name']) &&
 		!empty($_POST['mail'])) {
@@ -18,8 +18,7 @@
 		$query = http_build_query($data);
 		$options = array(
 			'http' => array (
-			'header' => 'Content-Type: application/x-www-form-urlencoded\r\n'.
-						'Content-Length: '.strlen($query).'\r\n',
+			'header' => 'Content-Type: application/x-www-form-urlencoded\r\nContent-Length: '.strlen($query).'\r\n',
 				'method' => 'POST',
 				'content' => $query,
 			)
@@ -60,4 +59,3 @@
 	$pageData['writeCache'] = false;
 	$pageData['readCache'] = false;
 	$pageData['pageName'] = 'index.php';
-?>

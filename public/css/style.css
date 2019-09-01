@@ -11,7 +11,7 @@ body {
 	height: 100%;
 	padding: 0;
 	margin: 0;
-	font-family: 'Quicksand', 'Open Sans';
+	font-family: 'Quicksand', 'Open Sans', sans-serif;
 	background-color: #ecf0f1;
 }
 .corps {
@@ -197,7 +197,7 @@ footer a {
 	}
 	#language-list {
 		position: fixed;
-		top: calc((3.9em - 32px)/2);
+		top: calc((3.9em - 32px) / 2);
 		right: 15px;
 	}
 	#language-list .icon {
