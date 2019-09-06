@@ -6,8 +6,7 @@
 				<li><a class="menuAncre" href="#whoami"><?= MENU_WHOAMI ?></a></li>
 				<li><a class="menuAncre" href="#projects"><?= MENU_PROJECTS ?></a></li>
 				<li><a class="menuAncre" href="#contact"><?= MENU_CONTACT ?></a></li>
-				<!--<li><a class="menuAncre" href="#partners"><?= MENU_PARTNERS ?></a></li>-->
-				<li><a class="menuAncre" target="_blank" href="https://discord.gg/c8aARey">Discord</a></li>
+				<li><a class="menuAncre" rel="noopener noreferrer" target="_blank" href="https://discord.gg/c8aARey">Discord</a></li>
 				<li><form method="post" id="language-form">
 					<div id="language-list"></div>
 					<input type="text" id="selected-language" name="selected-language">
@@ -45,16 +44,16 @@
 			<h2><?= PROJECT_TITLE ?></h2>
 			<div class="project-list">
 				<div class="project-item">
-					<span class="project-title"><a href="https://howtoopen.me" target="_blank">HowToOpen.me</a></span>
+					<span class="project-title"><a href="https://howtoopen.me" rel="noopener noreferrer" target="_blank">HowToOpen.me</a></span>
 					<span class="project-time"><?= PROJECT_SINCE ?> 2018</span><br/><br/>
 					<span class="project-type"><?= PROJECT_TOOL ?></span><br/>
 					<span class="project-desc"><?= HOWTOOPENME_DESC ?></span><br/><br/>
-					<span class="project-logo"><a href="https://howtoopen.me" target="_blank"><img src="img/icons/howtoopenme.jpg" alt="howtoopen.me"></a></span>
-					<span class="project-url"><a href="https://howtoopen.me" target="_blank">www.howtoopen.me</a></span><br/>
+					<span class="project-logo"><a href="https://howtoopen.me" rel="noopener noreferrer" target="_blank"><img src="img/icons/howtoopenme.jpg" alt="howtoopen.me"></a></span>
+					<span class="project-url"><a href="https://howtoopen.me" rel="noopener noreferrer" target="_blank">www.howtoopen.me</a></span><br/>
 				</div>
 
 				<div class="project-item">
-					<span class="project-title"><a href="https://dehash.me" target="_blank">Dehash.me</a></span>
+					<span class="project-title"><a href="https://dehash.me" rel="noopener noreferrer" target="_blank">Dehash.me</a></span>
 					<span class="project-time"><?= PROJECT_SINCE ?> 2017</span><br/><br/>
 					<span class="project-type"><?= PROJECT_TOOL ?></span><br/>
 					<span class="project-desc"><?= DEHASH_DESC ?></span><br/><br/>
@@ -63,16 +62,16 @@
 				</div>
 
 				<div class="project-item">
-					<span class="project-title"><a href="https://galactae.eu" target="_blank">Galactae: Space Age Dawn</a></span>
+					<span class="project-title"><a href="https://galactae.eu" rel="noopener noreferrer" target="_blank">Galactae: Space Age Dawn</a></span>
 					<span class="project-time"><span class="project-time"><?= PROJECT_SINCE ?> 2016<br><?= PROJECT_OUT ?> en 2018</span></span><br/><br/>
 					<span class="project-type"><?= PROJECT_BROWSER_MOBILE_GAME ?></span><br/>
 					<span class="project-desc"><?= GALACTAE_DESC ?></span><br/><br/>
-					<span class="project-logo"><a href="https://galactae.eu" target="_blank"><img src="img/icons/galactae.jpg" alt="galactae.eu"></a></span>
+					<span class="project-logo"><a href="https://galactae.eu" rel="noopener noreferrer" target="_blank"><img src="img/icons/galactae.jpg" alt="galactae.eu"></a></span>
 					<span class="project-url">
-						<a href="https://galactae.eu" target="_blank">www.galactae.eu</a><br/><br/>
-						<a href="https://play.google.com/store/apps/details?id=eu.elanis.galactae" target="_blank"><img src="img/android.png" alt="android app"></a>
-						<a target="_blank"><img src="img/ios-soon.png" alt="ios app"></a>
-						<a target="_blank"><img src="img/windows-store-soon.png" alt="windows app"></a>
+						<a href="https://galactae.eu" rel="noopener noreferrer" target="_blank">www.galactae.eu</a><br/><br/>
+						<a href="https://play.google.com/store/apps/details?id=eu.elanis.galactae" rel="noopener noreferrer" target="_blank"><img src="img/android.png" alt="android app"></a>
+						<a rel="noopener noreferrer" target="_blank"><img src="img/ios-soon.png" alt="ios app"></a>
+						<a rel="noopener noreferrer" target="_blank"><img src="img/windows-store-soon.png" alt="windows app"></a>
 					</span><br/>
 				</div>
 			</div>
@@ -105,14 +104,8 @@
 			</form>
 		</section>
 
-		<!--<div id="partners" class="anchor"></div>
-		<section id="index-partners" class="corps">
-			<h2><?= PARTNERS_TITLE ?></h2>
-			
-		</section>-->
-
 		<footer>
-			<table>
+			<table aria-describedby="first footer">
 				<tr class="first-footer">
 					<td>
 						<ul>
@@ -150,7 +143,7 @@
 					</td>
 				</tr>
 			</table>
-			<table>
+			<table aria-describedby="second footer">
 				<tr class="second-footer">
 					<td>Dysnomia <!-- - Société au capital de XXXX€ - SIREN: ......... --><br/>
 					Copyright 2018 - <?= FOOTER_ALL_RIGHT_RESERVED ?></td>
