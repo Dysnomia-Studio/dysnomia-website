@@ -69,7 +69,7 @@
 					<span class="project-logo"><a href="https://galactae.eu" rel="noopener noreferrer" target="_blank"><img src="img/icons/galactae.jpg" alt="galactae.eu"></a></span>
 					<span class="project-url">
 						<a href="https://galactae.eu" rel="noopener noreferrer" target="_blank">www.galactae.eu</a><br/><br/>
-						<a href="https://play.google.com/store/apps/details?id=eu.elanis.galactae" rel="noopener noreferrer" target="_blank"><img src="img/android.png" alt="android app"></a>
+						<a href="https://play.google.com/store/apps/details?id=com.dysnomia.galactae" rel="noopener noreferrer" target="_blank"><img src="img/android.png" alt="android app"></a>
 						<a rel="noopener noreferrer" target="_blank"><img src="img/ios-soon.png" alt="ios app"></a>
 						<a rel="noopener noreferrer" target="_blank"><img src="img/windows-store-soon.png" alt="windows app"></a>
 					</span><br/>
