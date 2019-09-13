@@ -10,7 +10,7 @@ define('INDEX_MAIN_TEXT','Creation & Gestion de sites et d\'applications dans le
 
 // Qui sommes nous ?
 define('WHOAMI_TITLE', MENU_WHOAMI);
-define('WHOAMI_TEXT', "Dysnomia est une entreprise fondée en 2018 par Axel Soupé alias Elanis, le but de cette entreprise est de créer un réseau de sites web dans différents domaines tels que le jeu-vidéo, les outils de développement, le divertissement, etc Tout ces services sont crées autour d'une même idée fondatrice: rendre les contenus accessibles facilement, gratuitement et légalement à tout un chacun.<br/>
+define('WHOAMI_TEXT', "Dysnomia est une entreprise fondée en juin 2019 par Axel Soupé alias Elanis, le but de cette entreprise est de créer un réseau de sites web dans différents domaines tels que le jeu-vidéo, les outils de développement, le divertissement, etc. Tout ces services sont crées autour d'une même idée fondatrice: rendre les contenus accessibles facilement, gratuitement et légalement à tout un chacun.<br/>
 			<br/>
 			Actuellement, l'entreprise est composée d'une seule personne, moi, Axel Soupé, mais j'espère pouvoir agrandir mon projet rapidement.<br/>");
 

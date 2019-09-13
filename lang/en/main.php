@@ -10,7 +10,7 @@ define('INDEX_MAIN_TEXT','Creating & Managing web applications');
 
 // Qui sommes nous ?
 define('WHOAMI_TITLE', MENU_WHOAMI);
-define('WHOAMI_TEXT', "Dysnomia is a french company created by Axel Soupé aka Elanis in 2018, the company goals are to create a website network in many fields like games, developpement tools, entertainment, ... All those services are created around a same idea: make contents easily reachable, free and legaly for everyone.<br/>
+define('WHOAMI_TEXT', "Dysnomia is a french company created by Axel Soupé aka Elanis on June 2019, the company goals are to create a website network in many fields like games, developpement tools, entertainment, ... All those services are created around a same idea: make contents easily reachable, free and legaly for everyone.<br/>
 	Now, the company consist of only one person, me, Axel Soupé but I hope rise my project fastly.<br/>");
 
 // Descriptions des projets
