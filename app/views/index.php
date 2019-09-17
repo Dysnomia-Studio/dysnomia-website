@@ -145,8 +145,8 @@
 			</table>
 			<table aria-describedby="second footer">
 				<tr class="second-footer">
-					<td>Dysnomia <!-- - Société au capital de XXXX€ - SIREN: ......... --><br/>
-					Copyright 2018 - <?= FOOTER_ALL_RIGHT_RESERVED ?></td>
+					<td>Dysnomia <!-- - Société au capital de XXXX€ - --> - SIREN: 851 292 714<br/>
+					Copyright 2018-<?= date('Y') ?> - <?= FOOTER_ALL_RIGHT_RESERVED ?></td>
 				</tr>
 			</table>
 		</footer>
