@@ -8,7 +8,7 @@ steps:
   - name: docker_sock
     path: /var/run/docker.sock
   settings:
-    repo: dysnomia/website
+    repo: dysnomia/dysnomia-website
     dockerfile: Dockerfile
     tags: ${DRONE_BRANCH}
     dry_run: true
