@@ -38,12 +38,12 @@ namespace Dysnomia.Website.WebApp.Controllers {
 			}
 
 			var messageMail = new MimeMessage();
-			messageMail.From.Add(new MailboxAddress("Dysnomia - Contact Form - " + objet, "***REMOVED***"));
+			messageMail.From.Add(new MailboxAddress("Dysnomia - Contact Form", "***REMOVED***"));
 			messageMail.To.Add(new MailboxAddress("Dysnomia", "***REMOVED***"));
-			messageMail.Subject = "Contact Form";
+			messageMail.Subject = "Contact Form - " + objet;
 
 			messageMail.Body = new TextPart("plain") {
-				Text = message + "\n\n\n" + name + "( " + mail + ")"
+				Text = message + "\n\n\n" + name + "( " + mail + " )"
 			};
 
 			using (var client = new SmtpClient()) {
