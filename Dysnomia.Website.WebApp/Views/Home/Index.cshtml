@@ -78,6 +78,9 @@
 <section id="index-contact" class="corps">
     <h2>Contact</h2>
 
+    @if (@ViewData["Message"] != null) {
+        <h1>@ViewData["Message"]</h1>
+    }
 
     <form method="post" action="contact#contact">
         <input type="text" name="name" placeholder="Nom" required>

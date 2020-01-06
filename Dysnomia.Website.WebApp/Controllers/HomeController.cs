@@ -30,20 +30,20 @@ namespace Dysnomia.Website.WebApp.Controllers {
 		[HttpPost]
 		[Route("contact")]
 		[Route("{culture}/contact")]
-		public async Task<ActionResult> Contact(string mail, string txt) {
+		public async Task<ActionResult> Contact(string name, string mail, string objet, string message) {
 			var recaptcha = await _recaptcha.Validate(Request, false); // @TODO: find a better way, that allow only some domains
-			if (string.IsNullOrWhiteSpace(mail) || string.IsNullOrWhiteSpace(txt) || !recaptcha.success) {
-				@ViewData["Message"] = "CONTACT_NOK";
+			if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(mail) || string.IsNullOrWhiteSpace(objet) || string.IsNullOrWhiteSpace(message) || !recaptcha.success) {
+				@ViewData["Message"] = "Votre message n'a pas pu être envoyé, veuillez reessayer et veiller à completer le captcha.";
 				return View("Index");
 			}
 
-			var message = new MimeMessage();
-			message.From.Add(new MailboxAddress("Elanis - Contact Form", "***REMOVED***"));
-			message.To.Add(new MailboxAddress("Elanis", "***REMOVED***"));
-			message.Subject = "Contact Form";
+			var messageMail = new MimeMessage();
+			messageMail.From.Add(new MailboxAddress("Dysnomia - Contact Form - " + objet, "***REMOVED***"));
+			messageMail.To.Add(new MailboxAddress("Dysnomia", "***REMOVED***"));
+			messageMail.Subject = "Contact Form";
 
-			message.Body = new TextPart("plain") {
-				Text = txt + "\n\n\n" + mail
+			messageMail.Body = new TextPart("plain") {
+				Text = message + "\n\n\n" + name + "( " + mail + ")"
 			};
 
 			using (var client = new SmtpClient()) {
@@ -55,11 +55,11 @@ namespace Dysnomia.Website.WebApp.Controllers {
 				// Note: only needed if the SMTP server requires authentication
 				client.Authenticate("***REMOVED***", "***REMOVED***");
 
-				client.Send(message);
+				client.Send(messageMail);
 				client.Disconnect(true);
 			}
 
-			@ViewData["Message"] = "CONTACT_OK";
+			@ViewData["Message"] = "Votre message a bien été transmis !";
 
 			return View("Index");
 		}
