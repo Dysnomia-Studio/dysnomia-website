@@ -29,7 +29,6 @@ namespace Dysnomia.Website.WebApp {
 			services.Configure<RecaptchaSettings>(Configuration.GetSection("RecaptchaSettings"));
 			services.AddTransient<IRecaptchaService, RecaptchaService>();
 
-
 			services.AddLocalization(options => options.ResourcesPath = "Translation")
 				.AddMvc()
 				.AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
