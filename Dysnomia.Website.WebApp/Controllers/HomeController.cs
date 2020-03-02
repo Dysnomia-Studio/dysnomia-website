@@ -31,35 +31,40 @@ namespace Dysnomia.Website.WebApp.Controllers {
 		[Route("contact")]
 		[Route("{culture}/contact")]
 		public async Task<ActionResult> Contact(string name, string mail, string objet, string message) {
-			var recaptcha = await _recaptcha.Validate(Request, false); // @TODO: find a better way, that allow only some domains
-			if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(mail) || string.IsNullOrWhiteSpace(objet) || string.IsNullOrWhiteSpace(message) || !recaptcha.success) {
+			try {
+				var recaptcha = await _recaptcha.Validate(Request, false); // @TODO: find a better way, that allow only some domains
+				if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(mail) || string.IsNullOrWhiteSpace(objet) || string.IsNullOrWhiteSpace(message) || !recaptcha.success) {
+					@ViewData["Message"] = "Votre message n'a pas pu être envoyé, veuillez reessayer et veiller à completer le captcha.";
+					return View("Index");
+				}
+
+				var messageMail = new MimeMessage();
+				messageMail.From.Add(new MailboxAddress("Dysnomia - Contact Form", "***REMOVED***"));
+				messageMail.To.Add(new MailboxAddress("Dysnomia", "***REMOVED***"));
+				messageMail.Subject = "Contact Form - " + objet;
+
+				messageMail.Body = new TextPart("plain") {
+					Text = message + "\n\n\n" + name + "( " + mail + " )"
+				};
+
+				using (var client = new SmtpClient()) {
+					// For demo-purposes, accept all SSL certificates (in case the server supports STARTTLS)
+					client.ServerCertificateValidationCallback = (s, c, h, e) => true;
+
+					client.Connect("***REMOVED***", 587, false);
+
+					// Note: only needed if the SMTP server requires authentication
+					client.Authenticate("***REMOVED***", "***REMOVED***");
+
+					client.Send(messageMail);
+					client.Disconnect(true);
+				}
+
+				@ViewData["Message"] = "Votre message a bien été transmis !";
+			} catch (System.ComponentModel.DataAnnotations.ValidationException e) {
 				@ViewData["Message"] = "Votre message n'a pas pu être envoyé, veuillez reessayer et veiller à completer le captcha.";
-				return View("Index");
+				// TODO: Log it
 			}
-
-			var messageMail = new MimeMessage();
-			messageMail.From.Add(new MailboxAddress("Dysnomia - Contact Form", "***REMOVED***"));
-			messageMail.To.Add(new MailboxAddress("Dysnomia", "***REMOVED***"));
-			messageMail.Subject = "Contact Form - " + objet;
-
-			messageMail.Body = new TextPart("plain") {
-				Text = message + "\n\n\n" + name + "( " + mail + " )"
-			};
-
-			using (var client = new SmtpClient()) {
-				// For demo-purposes, accept all SSL certificates (in case the server supports STARTTLS)
-				client.ServerCertificateValidationCallback = (s, c, h, e) => true;
-
-				client.Connect("***REMOVED***", 587, false);
-
-				// Note: only needed if the SMTP server requires authentication
-				client.Authenticate("***REMOVED***", "***REMOVED***");
-
-				client.Send(messageMail);
-				client.Disconnect(true);
-			}
-
-			@ViewData["Message"] = "Votre message a bien été transmis !";
 
 			return View("Index");
 		}
