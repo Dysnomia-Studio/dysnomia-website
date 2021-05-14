@@ -17,6 +17,8 @@ namespace Dysnomia.Website.WebApp.Tests {
 
 		public HomeController() {
 			var config = new ConfigurationBuilder()
+				.AddJsonFile("appsettings.json", optional: false)
+				.AddUserSecrets<Startup>()
 				.Build();
 
 			var builder = new WebHostBuilder()

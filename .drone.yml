@@ -19,10 +19,16 @@ steps:
       from_secret: SONAR_HOST
     SONAR_TOKEN: 
       from_secret: SONAR_TOKEN
+    DYSNOMIA_RECAPTCHA_SECRETKEY: 
+      from_secret: DYSNOMIA_RECAPTCHA_SECRETKEY
+    DYSNOMIA_RECAPTCHA_SITEKEY: 
+      from_secret: DYSNOMIA_RECAPTCHA_SITEKEY
   settings:
     build_args_from_env:
       - SONAR_HOST
       - SONAR_TOKEN
+      - DYSNOMIA_RECAPTCHA_SECRETKEY
+      - DYSNOMIA_RECAPTCHA_SITEKEY
 
   when:
     event:
