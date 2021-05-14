@@ -1,6 +1,4 @@
-﻿@{
-    ViewData["Title"] = "Elanis' Portfolio";
-}
+﻿@{ ViewData["Title"] = "Elanis' Portfolio"; }
 <div id="menu-back"></div>
 <img src="img/hamburger.png" id="hamburger" alt="menu">
 <nav id="menu">
@@ -41,6 +39,15 @@
     <h2>Nos projets</h2>
     <div class="project-list">
         <div class="project-item">
+            <span class="project-title"><a href="https://achieve.games" rel="noopener noreferrer" target="_blank">Achieve.games</a></span>
+            <span class="project-time">Depuis 2021</span><br /><br />
+            <span class="project-type">Outil</span><br />
+            <span class="project-desc">Achieve.games est un site autour des succès dans les jeux-vidéos.</span><br /><br />
+            <span class="project-logo"><a href="https://achieve.games"><img src="img/icons/achievegames.jpg" alt="achieve.games"></a></span>
+            <span class="project-url"><a href="https://achieve.games">achieve.games</a></span><br />
+        </div>
+
+        <div class="project-item">
             <span class="project-title"><a href="https://store.steampowered.com/app/1299430/Extortion/" rel="noopener noreferrer" target="_blank">Extortion</a></span>
             <span class="project-time">Sortie le 30/10/2020</span><br /><br />
             <span class="project-type">Jeu-video</span><br />
@@ -79,8 +86,7 @@
     <h2>Contact</h2>
 
     @if (@ViewData["Message"] != null) {
-        <h1>@ViewData["Message"]</h1>
-    }
+<h1>@ViewData["Message"]</h1>}
 
     <form method="post" action="contact#contact">
         <input type="text" name="name" placeholder="Nom" required>
