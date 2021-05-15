@@ -38,27 +38,7 @@ namespace Dysnomia.Website.WebApp.Controllers {
 					return View("Index");
 				}
 
-				var messageMail = new MimeMessage();
-				messageMail.From.Add(new MailboxAddress("Dysnomia - Contact Form", "***REMOVED***"));
-				messageMail.To.Add(new MailboxAddress("Dysnomia", "***REMOVED***"));
-				messageMail.Subject = "Contact Form - " + objet;
-
-				messageMail.Body = new TextPart("plain") {
-					Text = message + "\n\n\n" + name + "( " + mail + " )"
-				};
-
-				using (var client = new SmtpClient()) {
-					// For demo-purposes, accept all SSL certificates (in case the server supports STARTTLS)
-					client.ServerCertificateValidationCallback = (s, c, h, e) => true;
-
-					client.Connect("***REMOVED***", 587, false);
-
-					// Note: only needed if the SMTP server requires authentication
-					client.Authenticate("***REMOVED***", "***REMOVED***");
-
-					client.Send(messageMail);
-					client.Disconnect(true);
-				}
+				SendMail(name, mail, objet, message);
 
 				@ViewData["Message"] = "Votre message a bien été transmis !";
 			} catch (System.ComponentModel.DataAnnotations.ValidationException e) {
@@ -67,6 +47,31 @@ namespace Dysnomia.Website.WebApp.Controllers {
 			}
 
 			return View("Index");
+		}
+
+		[NonAction]
+		public void SendMail(string name, string mail, string objet, string message) {
+			var messageMail = new MimeMessage();
+			messageMail.From.Add(new MailboxAddress("Dysnomia - Contact Form", "***REMOVED***"));
+			messageMail.To.Add(new MailboxAddress("Dysnomia", "***REMOVED***"));
+			messageMail.Subject = "Contact Form - " + objet;
+
+			messageMail.Body = new TextPart("plain") {
+				Text = message + "\n\n\n" + name + "( " + mail + " )"
+			};
+
+			using (var client = new SmtpClient()) {
+				// For demo-purposes, accept all SSL certificates (in case the server supports STARTTLS)
+				client.ServerCertificateValidationCallback = (s, c, h, e) => true;
+
+				client.Connect("***REMOVED***", 587, false);
+
+				// Note: only needed if the SMTP server requires authentication
+				client.Authenticate("***REMOVED***", "***REMOVED***");
+
+				client.Send(messageMail);
+				client.Disconnect(true);
+			}
 		}
 
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
