@@ -23,10 +23,10 @@ window.addEventListener('load', function() {
 	iconSelect = new IconSelect('language-list');
 
 	const icons = [];
-	icons.push({'iconFilePath':'https://***REMOVED***/website/img/flags/fr.png', 'iconValue':'fr'});
-	icons.push({'iconFilePath':'https://***REMOVED***/website/img/flags/en.png', 'iconValue':'en'});
-	//icons.push({'iconFilePath':'https://***REMOVED***/website/img/flags/ru.png', 'iconValue':'ru'});
-	//icons.push({'iconFilePath':'https://***REMOVED***/website/img/flags/de.png', 'iconValue':'de'});
+	icons.push({'iconFilePath':'https://cdn.galactae.eu/website/img/flags/fr.png', 'iconValue':'fr'});
+	icons.push({'iconFilePath':'https://cdn.galactae.eu/website/img/flags/en.png', 'iconValue':'en'});
+	//icons.push({'iconFilePath':'https://cdn.galactae.eu/website/img/flags/ru.png', 'iconValue':'ru'});
+	//icons.push({'iconFilePath':'https://cdn.galactae.eu/website/img/flags/de.png', 'iconValue':'de'});
 
 	iconSelect.refresh(icons);
 });

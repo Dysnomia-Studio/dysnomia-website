@@ -4,7 +4,7 @@
     Copyright 2018-@DateTime.Now.Year
     Don't copy this without permission
 -->
-<html lang="fr">
+<html lang="@Localizer["Lang"]">
 <head>
     <title>Dysnomia Studio</title>
     <meta charset="UTF-8">
@@ -18,6 +18,91 @@
 </head>
 
 <body>
+    <div id="menu-back"></div>
+    <img src="/img/hamburger.png" id="hamburger" alt="menu">
+    <nav id="menu">
+        <ul>
+            <li><a href="/@Localizer["Lang"]/">Dysnomia</a></li>
+            <li><a class="menuAncre" href="#whoami">@Localizer["Menu.WhoAmI"]</a></li>
+            <li><a class="menuAncre" href="#projects">@Localizer["Menu.Projects"]</a></li>
+            <li><a class="menuAncre" href="#contact">@Localizer["Menu.Contact"]</a></li>
+            <li class="menu-separator">|</li>
+            <li><a class="menuAncre" rel="noopener noreferrer" target="_blank" href="https://blog.dysnomia.studio">Blog</a></li>
+            <li><a class="menuAncre" rel="noopener noreferrer" target="_blank" href="https://discord.gg/c8aARey">Discord</a></li>
+            <li><a class="menuAncre" rel="noopener noreferrer" target="_blank" href="https://github.com/Dysnomia-Studio">Github</a></li>
+            <li><a class="menuAncre" rel="noopener noreferrer" target="_blank" href="https://twitter.com/DysnomiaStudio">Twitter</a></li>
+            <li>
+                <form method="post" id="language-form">
+                    <div id="language-list"></div>
+                    <input type="text" id="selected-language" name="selected-language">
+                </form>
+            </li>
+        </ul>
+    </nav>
+    <script type="text/javascript" src="/js/iconselect/control/iconselect.js"></script>
+    <script type="text/javascript" src="/js/iconselect/iscroll.js"></script>
+    <script type="text/javascript" src="/js/language-list.js"></script>
+    <script type="text/javascript" src="/js/hamburger.js"></script>
+
+    @if (Localizer["Lang"].Value == "en") {
+        <script type="text/javascript">
+            window.addEventListener('load', function () {
+                changed--;
+                iconSelect.setSelectedIndex(1);
+            });
+        </script>
+    }
+
     @RenderBody()
+
+    <footer>
+        <table aria-describedby="first footer">
+            <tr class="first-footer">
+                <td>
+                    <ul>
+                        <li><h3>Galactae</h3></li>
+                        <li><a href="https://galactae.eu">@Localizer["Footer.Galactae.OfficialWebsite"]</a></li>
+                        <li><a href="https://galactae.eu/medias">@Localizer["Footer.Galactae.Gallery"]</a></li>
+                        <li><a href="https://galactae.eu/blog">@Localizer["Footer.Galactae.DevBlog"]</a></li>
+                    </ul>
+                </td>
+
+                <td>
+                    <ul>
+                        <li><h3>Autre</h3></li>
+                        <li><a href="https://achieve.games">Achieve.Games</a></li>
+                        <li><a href="https://dehash.me">Dehash.me</a></li>
+                        <li><a href="https://store.steampowered.com/app/1299430/Extortion/">Extortion</a></li>
+                    </ul>
+                </td>
+
+                <td>
+                    <ul>
+                        <li><h3>@Localizer["Footer.SocialNetwork"]</h3></li>
+                        <li><a rel="noopener noreferrer" target="_blank" href="https://blog.dysnomia.studio">Blog</a></li>
+                        <li><a rel="noopener noreferrer" target="_blank" href="https://discord.gg/c8aARey">Discord</a></li>
+                        <li><a rel="noopener noreferrer" target="_blank" href="https://github.com/Dysnomia-Studio">Github</a></li>
+                        <li><a rel="noopener noreferrer" target="_blank" href="https://twitter.com/DysnomiaStudio">Twitter</a></li>
+                        <li><a rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/channel/UCRvjwfwFAX3qXbGhLgi5NPg">Youtube</a></li>
+                    </ul>
+                </td>
+
+                <td>
+                    <ul>
+                        <li><h3>@Localizer["Footer.Misc"]</h3></li>
+                        <li><a href="https://bugs.dysnomia.studio">Bug tracker</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <table aria-describedby="second footer">
+            <tr class="second-footer">
+                <td>
+                    Dysnomia - SAS au capital de 1000€ - SIREN: 900 705 989<br />
+                    Copyright 2018-@DateTime.Now.Year - Tout droits reservés
+                </td>
+            </tr>
+        </table>
+    </footer>
 </body>
 </html>

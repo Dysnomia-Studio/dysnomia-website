@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Contact.Galactae" xml:space="preserve">
+    <value>Galactae (cf. site officiel)</value>
+  </data>
+  <data name="Contact.Name" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="Contact.Other" xml:space="preserve">
+    <value>Autre</value>
+  </data>
+  <data name="Contact.Partnership" xml:space="preserve">
+    <value>Partenariat</value>
+  </data>
+  <data name="Contact.Send" xml:space="preserve">
+    <value>Envoyer</value>
+  </data>
+  <data name="Contact.Subject" xml:space="preserve">
+    <value>Objet du message</value>
+  </data>
+  <data name="IndexTop.Description" xml:space="preserve">
+    <value>Creation &amp; Gestion de sites, d'applications et de jeux</value>
+  </data>
+  <data name="Project.Extortion.Description" xml:space="preserve">
+    <value>Vous êtes un ingénieur en informatique avec un secret inavouable. Quelqu'un l'a découvert et vous fait chanter afin de pirater des serveurs et récupérer des informations secrètes pour son compte. Allez-vous réussir ses missions ou bien essayer de le trouver et de vous venger ?</value>
+  </data>
+  <data name="Project.Extortion.Released" xml:space="preserve">
+    <value>Sorti le 30/10/2020</value>
+  </data>
+  <data name="Projects.AchieveGames.Description" xml:space="preserve">
+    <value>Achieve.games est un site autour des succès dans les jeux-vidéos.</value>
+  </data>
+  <data name="Projects.BetaSince" xml:space="preserve">
+    <value>En bêta depuis</value>
+  </data>
+  <data name="Projects.Dehashme.Description" xml:space="preserve">
+    <value>Dehash.me est un site permettant de hash (chiffrer sans pouvoir dechiffrer), mais aussi de "dehash". Afin de retourner ces hash, il utilise un dictionnaire grandissant chaque jour, répertoriant le résultat hashé de chaque mot.</value>
+  </data>
+  <data name="Projects.GalactaeSAD.Description" xml:space="preserve">
+    <value>Galactae: Space Age Dawn est un jeu de stratégie par navigateur novateur, en effet, le jeu est developpé dans l'optique d'avoir un maximum de gameplay (façons de jouer) différents. Vous y incarnez l'un des 3 dirigeants proposés afin de faire évoluer votre nation et faire grandir votre influence dans la galaxie.</value>
+  </data>
+  <data name="Projects.Games" xml:space="preserve">
+    <value>Jeu-vidéo</value>
+  </data>
+  <data name="Projects.Since" xml:space="preserve">
+    <value>Depuis</value>
+  </data>
+  <data name="Projects.Tool" xml:space="preserve">
+    <value>Outil</value>
+  </data>
+  <data name="WhoAmI.Desc1" xml:space="preserve">
+    <value>Dysnomia est une entreprise fondée en juin 2019 par Axel "Elanis" Soupé, le but de cette entreprise est de créer un réseau de sites et d'applications dans différents domaines tels que le jeu-vidéo, les outils de développement, le divertissement, etc.</value>
+  </data>
+  <data name="WhoAmI.Desc2" xml:space="preserve">
+    <value>Actuellement, l'entreprise est composée d'une seule personne, moi, Axel Soupé, mais j'espère pouvoir agrandir mon projet rapidement.</value>
+  </data>
+  <data name="WhoAmI.Title" xml:space="preserve">
+    <value>Qui sommes nous ?</value>
+  </data>
+</root>

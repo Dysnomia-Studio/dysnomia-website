@@ -144,7 +144,7 @@ footer a {
 /**
  * Menu
  */
-@media (min-width: 700px) {
+@media (min-width: 915px) {
 	#menu {
 		width: 100%;
 
@@ -206,9 +206,12 @@ footer a {
 	.selected-icon img {
 		margin-top: -0.25em;
 	}
+	.menu-separator {
+		color: white;
+	}
 }
 
-@media (max-width: 699px) {
+@media (max-width: 914px) {
 	#hamburger {
 		position: fixed;
 		top: 0.5em;
@@ -291,6 +294,9 @@ footer a {
 	.icon, .icon-selected {
 		display: inline-block !important;
 		margin: 0 0.5em;
+	}
+	.menu-separator {
+		color: transparent;
 	}
 }
 
