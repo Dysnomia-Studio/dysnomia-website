@@ -144,4 +144,7 @@
   <data name="Menu.WhoAmI" xml:space="preserve">
     <value>Who are we ?</value>
   </data>
+  <data name="Privacy.MainTitle" xml:space="preserve">
+    <value>Politique de confidentialité</value>
+  </data>
 </root>
