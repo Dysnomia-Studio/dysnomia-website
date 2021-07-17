@@ -444,3 +444,11 @@ footer a {
 	margin: 0 auto;
 	width: 304px;
 }
+
+.privacy a {
+	color: black;
+	text-decoration: none;
+}
+.privacy a:hover {
+	text-decoration: underline;
+}

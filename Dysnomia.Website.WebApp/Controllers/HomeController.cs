@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 using System.Threading.Tasks;
 
 using Dysnomia.Website.WebApp.Models;
@@ -27,6 +28,13 @@ namespace Dysnomia.Website.WebApp.Controllers {
 			return View();
 		}
 
+		[HttpGet]
+		[Route("privacy")]
+		[Route("{culture}/privacy")]
+		public IActionResult Privacy() {
+			return View();
+		}
+
 		[HttpPost]
 		[Route("contact")]
 		[Route("{culture}/contact")]
@@ -42,8 +50,10 @@ namespace Dysnomia.Website.WebApp.Controllers {
 
 				@ViewData["Message"] = "Votre message a bien été transmis !";
 			} catch (System.ComponentModel.DataAnnotations.ValidationException e) {
+				Console.WriteLine(e.Message);
+				Console.WriteLine(e.StackTrace);
+
 				@ViewData["Message"] = "Votre message n'a pas pu être envoyé, veuillez reessayer et veiller à completer le captcha.";
-				// TODO: Log it
 			}
 
 			return View("Index");
