@@ -8,9 +8,9 @@
 
 @if (showBanner) {
     <div id="cookieConsent" role="alert">
-        Hey ! We use some tasty cookies to make our website work. <a href="https://dysnomia.studio/privacy">Learn More in our privacy policy</a> (We promise, it's short).
+        @Localizer["CookieBanner.desc"]
         <button type="button" data-dismiss="alert" aria-label="Close" data-cookie-string="@cookieString">
-            <span aria-hidden="true">Accept</span>
+            <span aria-hidden="true">@Localizer["CookieBanner.button"]</span>
         </button>
     </div>
     <script>

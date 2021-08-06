@@ -117,64 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Contact.CookiesNeeded" xml:space="preserve">
-    <value>Cookies needed to use contact form</value>
+  <data name="CookieBanner.button" xml:space="preserve">
+    <value>Accept</value>
   </data>
-  <data name="Contact.Galactae" xml:space="preserve">
-    <value>Galactae (use official website)</value>
-  </data>
-  <data name="Contact.Name" xml:space="preserve">
-    <value>Name</value>
-  </data>
-  <data name="Contact.Other" xml:space="preserve">
-    <value>Other</value>
-  </data>
-  <data name="Contact.Partnership" xml:space="preserve">
-    <value>Partnership</value>
-  </data>
-  <data name="Contact.Send" xml:space="preserve">
-    <value>Send</value>
-  </data>
-  <data name="Contact.Subject" xml:space="preserve">
-    <value>Message subject</value>
-  </data>
-  <data name="IndexTop.Description" xml:space="preserve">
-    <value>Creating &amp; managing websites, apps and games</value>
-  </data>
-  <data name="Project.Extortion.Description" xml:space="preserve">
-    <value>You're a computer engineer with a terrible secret. Someone is blackmailing you and now, you have to hack some servers and get secret files for him. Would you succeed to achieve his missions or would you find him and revenge ?</value>
-  </data>
-  <data name="Project.Extortion.Released" xml:space="preserve">
-    <value>Released on 10/30/2020</value>
-  </data>
-  <data name="Projects.AchieveGames.Description" xml:space="preserve">
-    <value>Achieve.games is a website around game achievements.</value>
-  </data>
-  <data name="Projects.BetaSince" xml:space="preserve">
-    <value>Bêta since</value>
-  </data>
-  <data name="Projects.Dehashme.Description" xml:space="preserve">
-    <value>Dehash.me is a website allowing people to hash or "dehash". To "dehash", it uses it own dictionnary which grow everyday.</value>
-  </data>
-  <data name="Projects.GalactaeSAD.Description" xml:space="preserve">
-    <value>Galactae: Space Age Dawn is a browser strategy game created around maximum different gameplay possibilities. When starting the game, you choose your leader type then evolve your nation to increase power on the galaxy.</value>
-  </data>
-  <data name="Projects.Games" xml:space="preserve">
-    <value>Game</value>
-  </data>
-  <data name="Projects.Since" xml:space="preserve">
-    <value>Since</value>
-  </data>
-  <data name="Projects.Tool" xml:space="preserve">
-    <value>Tool</value>
-  </data>
-  <data name="WhoAmI.Desc1" xml:space="preserve">
-    <value>Dysnomia is a company created in june 2019 by Axel "Elanis" Soupé. The goal of this company is to create a website and apps network about vidéo-games, developement tools, entertainment, ...</value>
-  </data>
-  <data name="WhoAmI.Desc2" xml:space="preserve">
-    <value>The company is currently consisted of only one person, me, Axel Soupé, but I hope being soon able to widen my project.</value>
-  </data>
-  <data name="WhoAmI.Title" xml:space="preserve">
-    <value>Who are we ?</value>
+  <data name="CookieBanner.desc" xml:space="preserve">
+    <value>Hey ! We use some tasty cookies to make our website work. &lt;a href="https://dysnomia.studio/privacy"&gt;Learn More in our privacy policy&lt;/a&gt; (We promise, it's short).</value>
   </data>
 </root>
