@@ -22,4 +22,5 @@ RUN dotnet sonarscanner end /d:sonar.login="$SONAR_TOKEN"
 FROM mcr.microsoft.com/dotnet/aspnet:5.0
 WORKDIR /app
 COPY --from=build-env /app/out .
+HEALTHCHECK --interval=2m --timeout=3s CMD curl -f http://localhost/ || exit 1
 ENTRYPOINT ["dotnet", "Dysnomia.Website.WebApp.dll"]
