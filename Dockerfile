@@ -19,7 +19,7 @@ RUN dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
 RUN dotnet sonarscanner end /d:sonar.login="$SONAR_TOKEN"
 
 # Build runtime image
-FROM mcr.microsoft.com/dotnet/aspnet:5.0
+FROM dysnomia/net-runtime-5-0
 WORKDIR /app
 COPY --from=build-env /app/out .
 HEALTHCHECK --interval=2m --timeout=3s CMD curl -f http://localhost/ || exit 1
