@@ -1,4 +1,10 @@
-﻿<section id="index-top" class="corps">
+﻿@using Microsoft.AspNetCore.Http.Features
+
+@{
+    var consentFeature = Context.Features.Get<ITrackingConsentFeature>();
+}
+
+<section id="index-top" class="corps">
     <h1>Dysnomia</h1>
     <p>@Localizer["IndexTop.Description"]</p>
 </section>
@@ -63,23 +69,30 @@
     <h2>Contact</h2>
 
     @if (@ViewData["Message"] != null) {
-<h1>@ViewData["Message"]</h1>}
+        <h1>@ViewData["Message"]</h1>
+    }
 
-    <form method="post" action="contact#contact">
-        <input type="text" name="name" placeholder="@Localizer["Contact.Name"]" required>
-        <input type="text" name="mail" placeholder="Mail" required><br /><br />
-        <select name="objet">
-            <option disabled selected>@Localizer["Contact.Subject"]</option>
-            <option value="partner">@Localizer["Contact.Partnership"]</option>
-            <option value="galactae" disabled>@Localizer["Contact.Galactae"]</option>
-            <option value="achievegames">Achieve.games</option>
-            <option value="dehashme">Dehash.me</option>
-            <option value="extortion">Extortion</option>
-            <option value="autre">@Localizer["Contact.Other"]</option>
-        </select><br /><br />
-        <textarea name="message"></textarea><br />
-        <script src='https://www.google.com/recaptcha/api.js'></script>
-        <div class="g-recaptcha" data-sitekey="***REMOVED***"></div>
-        <input type="submit" value="@Localizer["Contact.Send"]">
-    </form>
+    @if (consentFeature?.CanTrack ?? false) {
+        <form method="post" action="contact#contact">
+            <input type="text" name="name" placeholder="@Localizer["Contact.Name"]" required>
+            <input type="text" name="mail" placeholder="Mail" required><br /><br />
+            <select name="objet">
+                <option disabled selected>@Localizer["Contact.Subject"]</option>
+                <option value="partner">@Localizer["Contact.Partnership"]</option>
+                <option value="galactae" disabled>@Localizer["Contact.Galactae"]</option>
+                <option value="achievegames">Achieve.games</option>
+                <option value="dehashme">Dehash.me</option>
+                <option value="extortion">Extortion</option>
+                <option value="autre">@Localizer["Contact.Other"]</option>
+            </select><br /><br />
+            <textarea name="message"></textarea><br />
+
+            <script src='https://www.google.com/recaptcha/api.js'></script>
+            <div class="g-recaptcha" data-sitekey="***REMOVED***"></div>
+
+            <input type="submit" value="@Localizer["Contact.Send"]">
+        </form>
+    } else {
+        <p><b>Cookies needed to use contact form</b></p>
+    }
 </section>

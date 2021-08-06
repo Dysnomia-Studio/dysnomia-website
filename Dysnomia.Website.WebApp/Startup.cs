@@ -6,6 +6,7 @@ using Dysnomia.Website.WebApp.Controllers;
 
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.AspNetCore.Routing.Constraints;
@@ -27,6 +28,14 @@ namespace Dysnomia.Website.WebApp {
 		public void ConfigureServices(IServiceCollection services) {
 			// Captcha
 			services.Configure<RecaptchaSettings>(Configuration.GetSection("RecaptchaSettings"));
+
+			services.Configure<CookiePolicyOptions>(options => {
+				// This lambda determines whether user consent for non-essential 
+				// cookies is needed for a given request.
+				options.CheckConsentNeeded = context => true;
+				options.MinimumSameSitePolicy = SameSiteMode.Strict;
+			});
+
 			services.AddTransient<IRecaptchaService, RecaptchaService>();
 
 			services.AddLocalization(options => options.ResourcesPath = "Translation")
