@@ -23,12 +23,21 @@ steps:
       from_secret: DYSNOMIA_RECAPTCHA_SECRETKEY
     DYSNOMIA_RECAPTCHA_SITEKEY: 
       from_secret: DYSNOMIA_RECAPTCHA_SITEKEY
+    MAIL_SERVER:
+      from_secret: MAIL_SERVER
+    MAIL_ADDRESS:
+      from_secret: MAIL_ADDRESS
+    MAIL_PASSWORD:
+      from_secret: MAIL_PASSWORD
   settings:
     build_args_from_env:
       - SONAR_HOST
       - SONAR_TOKEN
       - DYSNOMIA_RECAPTCHA_SECRETKEY
       - DYSNOMIA_RECAPTCHA_SITEKEY
+      - MAIL_SERVER
+      - MAIL_ADDRESS
+      - MAIL_PASSWORD
 
   when:
     event:

@@ -7,6 +7,7 @@ using Dysnomia.Website.WebApp.Models;
 using MailKit.Net.Smtp;
 
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 
 using MimeKit;
 
@@ -15,8 +16,11 @@ using reCAPTCHA.AspNetCore;
 namespace Dysnomia.Website.WebApp.Controllers {
 	public class HomeController : Controller {
 		private readonly IRecaptchaService _recaptcha;
-		public HomeController(IRecaptchaService recaptcha) {
+		private readonly AppSettings appSettings;
+
+		public HomeController(IRecaptchaService recaptcha, IOptions<AppSettings> appSettings) {
 			_recaptcha = recaptcha;
+			this.appSettings = appSettings.Value;
 		}
 
 		[HttpGet]
@@ -74,10 +78,10 @@ namespace Dysnomia.Website.WebApp.Controllers {
 				// For demo-purposes, accept all SSL certificates (in case the server supports STARTTLS)
 				client.ServerCertificateValidationCallback = (s, c, h, e) => true;
 
-				client.Connect("***REMOVED***", 587, false);
+				client.Connect(appSettings.MailServer, 587, false);
 
 				// Note: only needed if the SMTP server requires authentication
-				client.Authenticate("***REMOVED***", "***REMOVED***");
+				client.Authenticate(appSettings.MailAddress, appSettings.MailPassword);
 
 				client.Send(messageMail);
 				client.Disconnect(true);
