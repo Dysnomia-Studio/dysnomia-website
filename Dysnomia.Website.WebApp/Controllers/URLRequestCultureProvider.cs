@@ -9,6 +9,10 @@ using Microsoft.AspNetCore.Localization;
 namespace Dysnomia.Website.WebApp.Controllers {
 	public class UrlRequestCultureProvider : IRequestCultureProvider {
 		public Task<ProviderCultureResult> DetermineProviderCultureResult(HttpContext httpContext) {
+			if (httpContext == null || httpContext.Request == null) {
+				return Task.FromResult<ProviderCultureResult>(null);
+			}
+
 			var url = httpContext.Request.Path;
 
 			var parts = url.Value

@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
+using System.Threading.Tasks;
 
 using Dysnomia.Website.WebApp.Controllers;
 
@@ -41,49 +42,49 @@ namespace Dysnomia.Website.WebApp.Tests {
 		}
 
 		[Fact]
-		public async void ShouldGet200_GET_Root() {
+		public async Task ShouldGet200_GET_Root() {
 			var response = await client.GetAsync("/");
 
 			response.StatusCode.Should().Be(HttpStatusCode.OK);
 		}
 
 		[Fact]
-		public async void ShouldGet200_GET_Index() {
+		public async Task ShouldGet200_GET_Index() {
 			var response = await client.GetAsync("/index");
 
 			response.StatusCode.Should().Be(HttpStatusCode.OK);
 		}
 
 		[Fact]
-		public async void ShouldGet200_GET_Root_FR() {
+		public async Task ShouldGet200_GET_Root_FR() {
 			var response = await client.GetAsync("/fr/");
 
 			response.StatusCode.Should().Be(HttpStatusCode.OK);
 		}
 
 		[Fact]
-		public async void ShouldGet200_GET_Index_FR() {
+		public async Task ShouldGet200_GET_Index_FR() {
 			var response = await client.GetAsync("/fr/index");
 
 			response.StatusCode.Should().Be(HttpStatusCode.OK);
 		}
 
 		[Fact]
-		public async void ShouldGet200_GET_Root_EN() {
+		public async Task ShouldGet200_GET_Root_EN() {
 			var response = await client.GetAsync("/en/");
 
 			response.StatusCode.Should().Be(HttpStatusCode.OK);
 		}
 
 		[Fact]
-		public async void ShouldGet200_GET_Index_EN() {
+		public async Task ShouldGet200_GET_Index_EN() {
 			var response = await client.GetAsync("/en/index");
 
 			response.StatusCode.Should().Be(HttpStatusCode.OK);
 		}
 
 		[Fact]
-		public async void ShouldGet200_POST_Contact_Empty() {
+		public async Task ShouldGet200_POST_Contact_Empty() {
 			var formVariables = new List<KeyValuePair<string, string>>();
 			formVariables.Add(new KeyValuePair<string, string>("mail", "test@text.com"));
 			formVariables.Add(new KeyValuePair<string, string>("txt", "test"));
@@ -95,7 +96,7 @@ namespace Dysnomia.Website.WebApp.Tests {
 		}
 
 		[Fact]
-		public async void ShouldGet200_POST_Contact_Empty_EN() {
+		public async Task ShouldGet200_POST_Contact_Empty_EN() {
 			var formVariables = new List<KeyValuePair<string, string>>();
 			formVariables.Add(new KeyValuePair<string, string>("mail", "test@text.com"));
 			formVariables.Add(new KeyValuePair<string, string>("txt", "test"));
@@ -107,7 +108,7 @@ namespace Dysnomia.Website.WebApp.Tests {
 		}
 
 		[Fact]
-		public async void ShouldGet200_POST_Contact_Empty_FR() {
+		public async Task ShouldGet200_POST_Contact_Empty_FR() {
 			var formVariables = new List<KeyValuePair<string, string>>();
 			formVariables.Add(new KeyValuePair<string, string>("mail", "test@text.com"));
 			formVariables.Add(new KeyValuePair<string, string>("txt", "test"));
@@ -119,14 +120,14 @@ namespace Dysnomia.Website.WebApp.Tests {
 		}
 
 		[Fact]
-		public async void ShouldGet200_GET_Error() {
+		public async Task ShouldGet200_GET_Error() {
 			var response = await client.GetAsync("/error");
 
 			response.StatusCode.Should().Be(HttpStatusCode.OK);
 		}
 
 		[Fact]
-		public async void SendMail() {
+		public void SendMail() {
 			var controller = new HomeController(null, Options.Create(appSettings));
 
 			controller.SendMail("Unit Test", "unitTest@dysnomia.studio", "Unit Test", "Unit test mail sending");

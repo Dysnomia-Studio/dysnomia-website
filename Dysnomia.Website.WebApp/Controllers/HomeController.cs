@@ -20,7 +20,9 @@ namespace Dysnomia.Website.WebApp.Controllers {
 
 		public HomeController(IRecaptchaService recaptcha, IOptions<AppSettings> appSettings) {
 			_recaptcha = recaptcha;
-			this.appSettings = appSettings.Value;
+			if (appSettings != null) {
+				this.appSettings = appSettings.Value;
+			}
 		}
 
 		[HttpGet]
