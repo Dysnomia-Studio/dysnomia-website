@@ -117,6 +117,71 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Privacy.Content" xml:space="preserve">
+    <value>&lt;div id="general"&gt;
+        &lt;h2&gt;General&lt;/h2&gt;
+
+        &lt;h3 id="usage-statistics"&gt;Statistiques d'utilisation&lt;/h3&gt;
+        &lt;p&gt;&lt;strong&gt;Adresse IP, Nom du systeme d'exploitation, Nom du navigateur, Date de la visite&lt;/strong&gt; sont stockées dans nos statistiques d'utilisation. Ces données sont utilisées uniquement en interne et ne seront jamais partagées à des entreprises tiers. Nous les utilisons afin de detecter les bots et de sortir des beaux graphiques d'utilisation.&lt;/p&gt;
+
+        &lt;h3 id="logs"&gt;Journalisation&lt;/h3&gt;
+        &lt;p&gt;&lt;strong&gt;Adresse IP, User Agent (Nom et version du navigateur, Nom et version du système d'exploitation), Date de visite&lt;/strong&gt; sont journalisés pour des raisons de sécurités. Ces données sont utilisées uniquement en interne et ne seront jamais partagées à des entreprises tiers.&lt;/p&gt;
+
+        &lt;h3 id="bots"&gt;Bots et spam&lt;/h3&gt;
+        &lt;p&gt;&lt;strong&gt;Adresse IP, cookie de session, date de la visite&lt;/strong&gt; sont utilisés afin de bloquer les bots et spammers. Ces données disparaitront automatiquement de nos serveurs en moins de quelques heures.&lt;/p&gt;
+
+        &lt;h3 id="advertisement"&gt;Publicité&lt;/h3&gt;
+        &lt;p&gt;Certains sites Dysnomia affichent de la publicité via Google Adsense. Nous n'avons aucun contrôle de la manière dont Google stocke et gère vos données, plus d'informations sur &lt;a href="https://support.google.com/adsense/answer/1348695"&gt;https://support.google.com/adsense/answer/1348695&lt;/a&gt;&lt;/p&gt;
+
+        &lt;h3 id="advertisement"&gt;Google captcha&lt;/h3&gt;
+        &lt;p&gt;Certains sites Dysnomia utilisent Google Captcha dans des formulaires. Nous n'avons aucun contrôle de la manière dont Google stocke et gère vos données, plus d'informations sur  &lt;a href="https://policies.google.com/privacy"&gt;https://policies.google.com/privacy&lt;/a&gt;&lt;/p&gt;
+
+        &lt;h3 id="language"&gt;Traduction et gestion des langues&lt;/h3&gt;
+        &lt;p&gt;Certaines sites Dysnomia ont un fonctionnement multi-langue. Nous utilisons un cookie afin de stocker votre préference entre vos visites.&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div id="achieve-games"&gt;
+        &lt;h2&gt;&lt;a href="https://achieve.games"&gt;Achieve.games (Voir "general")&lt;/a&gt;&lt;/h2&gt;
+
+        &lt;h3&gt;&lt;a href="#usage-statistics"&gt;Statistiques d'utilisation (Voir "general")&lt;/a&gt;&lt;/h3&gt;
+        &lt;h3&gt;&lt;a href="#logs"&gt;Logs (Voir "general")&lt;/a&gt;&lt;/h3&gt;
+        &lt;h3&gt;&lt;a href="#bots"&gt;Bots et spam (Voir "general")&lt;/a&gt;&lt;/h3&gt;
+        &lt;h3&gt;&lt;a href="#advertisement"&gt;Publicité (Voir "general")&lt;/a&gt;&lt;/h3&gt;
+
+        &lt;h3&gt;Steam&lt;/h3&gt;
+        &lt;p&gt;Nous ne stockons aucune &lt;strong&gt;information personnelle&lt;/strong&gt; non publique venant des comptes Steam. Des données peuvent être temporairement stockées mais automatiquement netoyées. Si vous passez votre profil Steam en privé, tout sera automatiquement nettoyé en moins de quelques jours (dependant du cache).&lt;/p&gt;
+
+        &lt;h3&gt;Blizzard&lt;/h3&gt;
+        &lt;p&gt;Si vous retirez le droit d'accès à votre profil Bizzard, tout sera automatiquement nettoyé en moins de quelques jours (dependant du cache).&lt;/p&gt;
+
+        &lt;h3&gt;Données utilisateurs generiques&lt;/h3&gt;
+        &lt;p&gt;Nous gardons en base de données les liens entre vos differents comptes de jeu afin de vous aider à vous reconnecter facilement. Nous gardons uniquement votre identifiant et votre nom d'utilisateur.&lt;/p&gt;
+
+        &lt;h3&gt;Cookies&lt;/h3&gt;
+        &lt;p&gt;Le seul cookie que nous utilisons et gerons est le cookie de session. Il sert à empecher les &lt;a href="#bots"&gt;bots ou le spam&lt;/a&gt; et à vous connecter à vos comptes.&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div id="dehash-me"&gt;
+        &lt;h2&gt;&lt;a href="https://dehash.me"&gt;Dehash.me&lt;/a&gt;&lt;/h2&gt;
+
+        &lt;h3&gt;&lt;a href="#usage-statistics"&gt;Statistiques d'utilisation (Voir "general")&lt;/a&gt;&lt;/h3&gt;
+        &lt;h3&gt;&lt;a href="#logs"&gt;Logs (Voir "general")&lt;/a&gt;&lt;/h3&gt;
+        &lt;h3&gt;&lt;a href="#bots"&gt;Bots et spam (Voir "general")&lt;/a&gt;&lt;/h3&gt;
+        &lt;h3&gt;&lt;a href="#advertisement"&gt;Publicité (Voir "general")&lt;/a&gt;&lt;/h3&gt;
+
+        &lt;h3&gt;Cookies&lt;/h3&gt;
+        &lt;p&gt;Le seul cookie que nous utilisons et gerons est le cookie de session. Il sert à empecher les &lt;a href="#bots"&gt;bots ou le spam&lt;/a&gt;.&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div id="galactae"&gt;
+        &lt;h2&gt;&lt;a href="https://galactae.eu"&gt;Galactae: Space Age Dawn&lt;/a&gt;&lt;/h2&gt;
+
+        &lt;h3&gt;&lt;a href="#usage-statistics"&gt;Statistiques d'utilisation (Voir "general")&lt;/a&gt;&lt;/h3&gt;
+        &lt;h3&gt;&lt;a href="#logs"&gt;Logs (Voir "general")&lt;/a&gt;&lt;/h3&gt;
+        &lt;h3&gt;&lt;a href="language"&gt;Traduction et gestion des langues (Voir "general")&lt;/a&gt;&lt;/h3&gt;
+        &lt;h3&gt;&lt;a href="https://***REMOVED***/website/pdf/cgu.pdf"&gt;Conditions générales d'utilisation&lt;/a&gt;&lt;/h3&gt;
+    &lt;/div&gt;</value>
+  </data>
   <data name="Privacy.MainTitle" xml:space="preserve">
     <value>Politique de confidentialité</value>
   </data>

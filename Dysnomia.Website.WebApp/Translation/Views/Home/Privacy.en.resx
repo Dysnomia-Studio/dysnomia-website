@@ -117,6 +117,71 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Privacy.Content" xml:space="preserve">
+    <value>&lt;div id="general"&gt;
+        &lt;h2&gt;General&lt;/h2&gt;
+
+        &lt;h3 id="usage-statistics"&gt;Usage Statistics&lt;/h3&gt;
+        &lt;p&gt;&lt;strong&gt;IP Adress, Operating System Name, Browser name, Date of visit&lt;/strong&gt; are stored and used in usage statistics. This will only be keeped for us, never shared with other companies. We use it to detect bots, and make stats about our websites.&lt;/p&gt;
+
+        &lt;h3 id="logs"&gt;Logs&lt;/h3&gt;
+        &lt;p&gt;&lt;strong&gt;IP Adress, User Agent (Browser name and version, OS name and version), Date of visit&lt;/strong&gt; are stored in our log files when using some of our services for security reasons. This will only be keeped for us, never shared with other companies.&lt;/p&gt;
+
+        &lt;h3 id="bots"&gt;Bots and spam&lt;/h3&gt;
+        &lt;p&gt;&lt;strong&gt;IP Adress, session cookie, Date of visit&lt;/strong&gt; are used to prevent bots and spammers. This will automatically disappear from our servers after few hours.&lt;/p&gt;
+
+        &lt;h3 id="advertisement"&gt;Advertisement&lt;/h3&gt;
+        &lt;p&gt;Some Dysnomia websites uses Google AdSense for advertisement. We do not have control on how Google/use store your data. More information at &lt;a href="https://support.google.com/adsense/answer/1348695"&gt;https://support.google.com/adsense/answer/1348695&lt;/a&gt;&lt;/p&gt;
+
+        &lt;h3 id="advertisement"&gt;Google captcha&lt;/h3&gt;
+        &lt;p&gt;Some Dysnomia websites uses Google Captcha in some forms. We do not have control on how Google store/use your data. More informations at &lt;a href="https://policies.google.com/privacy"&gt;https://policies.google.com/privacy&lt;/a&gt;&lt;/p&gt;
+
+        &lt;h3 id="language"&gt;Internationalization and localization&lt;/h3&gt;
+        &lt;p&gt;Some Dysnomia websites works with multiples languages. We store a cookie on your computer to keep track of this setting between your visits.&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div id="achieve-games"&gt;
+        &lt;h2&gt;&lt;a href="https://achieve.games"&gt;Achieve.games (See "general")&lt;/a&gt;&lt;/h2&gt;
+
+        &lt;h3&gt;&lt;a href="#usage-statistics"&gt;Usage Statistics (See "general")&lt;/a&gt;&lt;/h3&gt;
+        &lt;h3&gt;&lt;a href="#logs"&gt;Logs (See "general")&lt;/a&gt;&lt;/h3&gt;
+        &lt;h3&gt;&lt;a href="#bots"&gt;Bots and spam (See "general")&lt;/a&gt;&lt;/h3&gt;
+        &lt;h3&gt;&lt;a href="#advertisement"&gt;Advertisement (See "general")&lt;/a&gt;&lt;/h3&gt;
+
+        &lt;h3&gt;Steam Data&lt;/h3&gt;
+        &lt;p&gt;We do not keep any non-public &lt;strong&gt;user data&lt;/strong&gt; from Steam accounts. Some data are stored in database, some in memory and automatically cleaned. If you turn your Steam profile private, data will automatically be cleaned within few days (depending on cache delay).&lt;/p&gt;
+
+        &lt;h3&gt;Blizzard Data&lt;/h3&gt;
+        &lt;p&gt;If you ungrant access to your account for our website, data will automatically be cleaned within few days (depending on cache delay).&lt;/p&gt;
+
+        &lt;h3&gt;User Data&lt;/h3&gt;
+        &lt;p&gt;We keep links between accounts, example: Battle.net and Steam account of the same person. We only keep public id and name in database.&lt;/p&gt;
+
+        &lt;h3&gt;Cookies&lt;/h3&gt;
+        &lt;p&gt;The only cookie we create and have control on is the session Cookie. It's used to prevent &lt;a href="#bots"&gt;bots or spam&lt;/a&gt; and to retrieve user accounts.&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div id="dehash-me"&gt;
+        &lt;h2&gt;&lt;a href="https://dehash.me"&gt;Dehash.me&lt;/a&gt;&lt;/h2&gt;
+
+        &lt;h3&gt;&lt;a href="#usage-statistics"&gt;Usage Statistics (See "general")&lt;/a&gt;&lt;/h3&gt;
+        &lt;h3&gt;&lt;a href="#logs"&gt;Logs (See "general")&lt;/a&gt;&lt;/h3&gt;
+        &lt;h3&gt;&lt;a href="#bots"&gt;Bots and spam (See "general")&lt;/a&gt;&lt;/h3&gt;
+        &lt;h3&gt;&lt;a href="#advertisement"&gt;Advertisement (See "general")&lt;/a&gt;&lt;/h3&gt;
+
+        &lt;h3&gt;Cookies&lt;/h3&gt;
+        &lt;p&gt;The only cookie we create and have control on is the session Cookie. It's used to prevent &lt;a href="#bots"&gt;bots or spam&lt;/a&gt;.&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div id="galactae"&gt;
+        &lt;h2&gt;&lt;a href="https://galactae.eu"&gt;Galactae: Space Age Dawn&lt;/a&gt;&lt;/h2&gt;
+
+        &lt;h3&gt;&lt;a href="#usage-statistics"&gt;Usage Statistics (See "general")&lt;/a&gt;&lt;/h3&gt;
+        &lt;h3&gt;&lt;a href="#logs"&gt;Logs (See "general")&lt;/a&gt;&lt;/h3&gt;
+        &lt;h3&gt;&lt;a href="language"&gt;Internationalization and localization (See "general")&lt;/a&gt;&lt;/h3&gt;
+        &lt;h3&gt;&lt;a href="https://***REMOVED***/website/pdf/cgu.pdf"&gt;Terms &amp; Conditions&lt;/a&gt;&lt;/h3&gt;
+    &lt;/div&gt;</value>
+  </data>
   <data name="Privacy.MainTitle" xml:space="preserve">
     <value>Privacy policies</value>
   </data>
