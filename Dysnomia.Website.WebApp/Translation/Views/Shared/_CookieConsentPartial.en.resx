@@ -117,10 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="CookieBanner.button" xml:space="preserve">
+  <data name="CookieBanner.Accept" xml:space="preserve">
     <value>Accept</value>
   </data>
   <data name="CookieBanner.desc" xml:space="preserve">
     <value>Hey ! We use some tasty cookies to make our website work. &lt;a href="https://dysnomia.studio/privacy"&gt;Learn More in our privacy policy&lt;/a&gt; (We promise, it's short).</value>
+  </data>
+  <data name="CookieBanner.Refuse" xml:space="preserve">
+    <value>Refuse</value>
   </data>
 </root>
