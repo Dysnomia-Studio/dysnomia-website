@@ -15,10 +15,7 @@ steps:
     pull-image: false
   environment:
     PLUGIN_PULL_IMAGE: false
-    SONAR_HOST: 
-      from_secret: SONAR_HOST
-    SONAR_TOKEN: 
-      from_secret: SONAR_TOKEN
+    DRONE_BRANCH: ${DRONE_BRANCH}
     DYSNOMIA_RECAPTCHA_SECRETKEY: 
       from_secret: DYSNOMIA_RECAPTCHA_SECRETKEY
     DYSNOMIA_RECAPTCHA_SITEKEY: 
@@ -29,16 +26,20 @@ steps:
       from_secret: MAIL_ADDRESS
     MAIL_PASSWORD:
       from_secret: MAIL_PASSWORD
+    SONAR_HOST: 
+      from_secret: SONAR_HOST
+    SONAR_TOKEN: 
+      from_secret: SONAR_TOKEN
   settings:
     build_args_from_env:
-      - SONAR_HOST
-      - SONAR_TOKEN
+      - DRONE_BRANCH
       - DYSNOMIA_RECAPTCHA_SECRETKEY
       - DYSNOMIA_RECAPTCHA_SITEKEY
       - MAIL_SERVER
       - MAIL_ADDRESS
       - MAIL_PASSWORD
-
+      - SONAR_HOST
+      - SONAR_TOKEN
   when:
     event:
     - push
