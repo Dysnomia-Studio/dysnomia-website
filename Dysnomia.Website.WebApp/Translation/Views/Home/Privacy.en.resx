@@ -155,7 +155,8 @@
         &lt;p&gt;If you ungrant access to your account for our website, data will automatically be cleaned within few days (depending on cache delay).&lt;/p&gt;
 
         &lt;h3&gt;User Data&lt;/h3&gt;
-        &lt;p&gt;We keep links between accounts, example: Battle.net and Steam account of the same person. We only keep public id and name in database.&lt;/p&gt;
+        &lt;p&gt;We keep links between accounts, example: Battle.net and Steam account of the same person. We only keep public id and name in database for this purpose.&lt;/p&gt;
+        &lt;p&gt;We are caching public date from game library, this cache can be kept up to 3 months after latest time those data have been queried from public APIs.&lt;/p&gt;
 
         &lt;h3&gt;Cookies&lt;/h3&gt;
         &lt;p&gt;The only cookie we create and have control on is the session Cookie. It's used to prevent &lt;a href="#bots"&gt;bots or spam&lt;/a&gt; and to retrieve user accounts.&lt;/p&gt;

@@ -155,7 +155,8 @@
         &lt;p&gt;Si vous retirez le droit d'accès à votre profil Bizzard, tout sera automatiquement nettoyé en moins de quelques jours (dependant du cache).&lt;/p&gt;
 
         &lt;h3&gt;Données utilisateurs generiques&lt;/h3&gt;
-        &lt;p&gt;Nous gardons en base de données les liens entre vos differents comptes de jeu afin de vous aider à vous reconnecter facilement. Nous gardons uniquement votre identifiant et votre nom d'utilisateur.&lt;/p&gt;
+        &lt;p&gt;Nous gardons en base de données les liens entre vos differents comptes de jeu afin de vous aider à vous reconnecter facilement. Nous gardons uniquement votre identifiant et votre nom d'utilisateur dans ce but.&lt;/p&gt;
+        &lt;p&gt;Nous mettons en cache les données publiques de chaque profil afin d'accelerer le chargement des statistiques des succès et d'alléger la charge sur les serveurs des bibliothèques de jeu, ce cache peut durer jusqu'a 3 mois après le dernier chargement de ces données depuis les API publiques.&lt;/p&gt;
 
         &lt;h3&gt;Cookies&lt;/h3&gt;
         &lt;p&gt;Le seul cookie que nous utilisons et gerons est le cookie de session. Il sert à empecher les &lt;a href="#bots"&gt;bots ou le spam&lt;/a&gt; et à vous connecter à vos comptes.&lt;/p&gt;
