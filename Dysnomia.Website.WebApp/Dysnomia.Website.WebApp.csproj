@@ -7,7 +7,7 @@
 
   <ItemGroup>
     <PackageReference Include="Dysnomia.Common.Stats" Version="1.2.3" />
-    <PackageReference Include="MailKit" Version="3.2.0" />
+    <PackageReference Include="MailKit" Version="3.4.2" />
     <PackageReference Include="reCAPTCHA.AspNetCore" Version="3.0.10" />
   </ItemGroup>
 
