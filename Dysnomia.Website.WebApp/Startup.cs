@@ -1,6 +1,3 @@
-using System.Collections.Generic;
-using System.Globalization;
-
 using Dysnomia.Common.Stats;
 using Dysnomia.Website.WebApp.Controllers;
 
@@ -15,6 +12,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
 using reCAPTCHA.AspNetCore;
+
+using System.Collections.Generic;
+using System.Globalization;
 
 namespace Dysnomia.Website.WebApp {
 	public class Startup {
@@ -78,9 +78,11 @@ namespace Dysnomia.Website.WebApp {
 
 			if (!env.IsEnvironment("Testing")) {
 				app.Use(async (context, next) => {
-					StatsRecorder.NewVisit(context);
+					StatsRecorder.PrepareVisit(context);
 
 					await next();
+
+					StatsRecorder.NewVisit(context);
 				});
 			}
 
