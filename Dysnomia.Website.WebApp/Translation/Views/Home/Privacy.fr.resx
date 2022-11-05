@@ -122,7 +122,7 @@
         &lt;h2&gt;General&lt;/h2&gt;
 
         &lt;h3 id="usage-statistics"&gt;Statistiques d'utilisation&lt;/h3&gt;
-        &lt;p&gt;&lt;strong&gt;Adresse IP, Nom du systeme d'exploitation, Nom du navigateur, Date de la visite&lt;/strong&gt; sont stockées dans nos statistiques d'utilisation. Ces données sont utilisées uniquement en interne et ne seront jamais partagées à des entreprises tiers. Nous les utilisons afin de detecter les bots et de sortir des beaux graphiques d'utilisation.&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;Adresse IP, Nom du systeme d'exploitation, Nom du navigateur, Date de la visite, Methode HTTP, Temps réponse serveur&lt;/strong&gt; sont stockées dans nos statistiques d'utilisation. Ces données sont utilisées uniquement en interne et ne seront jamais partagées à des entreprises tiers. Nous les utilisons afin de detecter les bots et de sortir des beaux graphiques d'utilisation.&lt;/p&gt;
 
         &lt;h3 id="logs"&gt;Journalisation&lt;/h3&gt;
         &lt;p&gt;&lt;strong&gt;Adresse IP, User Agent (Nom et version du navigateur, Nom et version du système d'exploitation), Date de visite&lt;/strong&gt; sont journalisés pour des raisons de sécurités. Ces données sont utilisées uniquement en interne et ne seront jamais partagées à des entreprises tiers.&lt;/p&gt;

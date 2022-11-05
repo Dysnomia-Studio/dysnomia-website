@@ -122,13 +122,13 @@
         &lt;h2&gt;General&lt;/h2&gt;
 
         &lt;h3 id="usage-statistics"&gt;Usage Statistics&lt;/h3&gt;
-        &lt;p&gt;&lt;strong&gt;IP Adress, Operating System Name, Browser name, Date of visit&lt;/strong&gt; are stored and used in usage statistics. This will only be keeped for us, never shared with other companies. We use it to detect bots, and make stats about our websites.&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;IP Address, Operating System Name, Browser name, Date of visit, HTTP Method, Serverside Loading Time&lt;/strong&gt; are stored and used in usage statistics. This will only be keeped for us, never shared with other companies. We use it to detect bots, and make stats about our websites.&lt;/p&gt;
 
         &lt;h3 id="logs"&gt;Logs&lt;/h3&gt;
-        &lt;p&gt;&lt;strong&gt;IP Adress, User Agent (Browser name and version, OS name and version), Date of visit&lt;/strong&gt; are stored in our log files when using some of our services for security reasons. This will only be keeped for us, never shared with other companies.&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;IP Address, User Agent (Browser name and version, OS name and version), Date of visit&lt;/strong&gt; are stored in our log files when using some of our services for security reasons. This will only be keeped for us, never shared with other companies.&lt;/p&gt;
 
         &lt;h3 id="bots"&gt;Bots and spam&lt;/h3&gt;
-        &lt;p&gt;&lt;strong&gt;IP Adress, session cookie, Date of visit&lt;/strong&gt; are used to prevent bots and spammers. This will automatically disappear from our servers after few hours.&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;IP Address, session cookie, Date of visit&lt;/strong&gt; are used to prevent bots and spammers. This will automatically disappear from our servers after few hours.&lt;/p&gt;
 
         &lt;h3 id="advertisement"&gt;Advertisement&lt;/h3&gt;
         &lt;p&gt;Some Dysnomia websites uses Google AdSense for advertisement. We do not have control on how Google/use store your data. More information at &lt;a href="https://support.google.com/adsense/answer/1348695"&gt;https://support.google.com/adsense/answer/1348695&lt;/a&gt;&lt;/p&gt;
