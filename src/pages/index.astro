@@ -5,6 +5,7 @@ import i18next, { t, changeLanguage } from 'i18next';
 import ProjectsData from '../data/ProjectsData.js';
 
 import HomepageProject from '../components/HomepageProject';
+import ProjectList from '../components/ProjectList';
 
 import './index.css';
 
@@ -24,5 +25,6 @@ const projects = ProjectsData.getProjects();
 		{projects.map((project) =>
 			<HomepageProject project={project} />
 		)}
+		<ProjectList projects={projects} />
 	</body>
 </html>

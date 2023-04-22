@@ -1,0 +1,42 @@
+.project-list {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+
+	overflow-y: auto;
+	text-align: center;
+	width: calc(300px - 3rem);
+
+	padding: 1rem;
+}
+.project-list-dysnomia-logo {
+	margin-bottom: 1rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #ffffff11;
+}
+.project-list img {
+	max-width: 80%;
+}
+
+.project-list-item {
+	border: 1px solid transparent;
+	color: white;
+	display: inline-block;
+	margin: 1rem 0;
+	padding: 0.5rem;
+	
+	text-decoration: none;
+	width: calc(100% - 2px - 1rem);
+}
+.project-list-item:hover {
+	border-color: #ffffff33;
+}
+
+@media (max-width: 1150px) {
+	.project-list {
+		display: none;
+	}
+}
+
+/* TODO: mobile */

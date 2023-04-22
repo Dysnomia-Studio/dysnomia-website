@@ -6,7 +6,7 @@ export default function HomepageProject({ project }) {
 	const { t } = useTranslation("translation");
 
 	return (
-		<div className={`homepage-project homepage-project-${project.id}`}>
+		<div id={project.id} className={`homepage-project homepage-project-${project.id}`}>
 			<div className="homepage-project-screenshots">
 				{project.screenshots > 0 && <img src={`/img/${project.id}/screenshot-0.png`} alt={`${project.name} screenshot`} />}
 				{project.screenshots > 1 && <img src={`/img/${project.id}/screenshot-1.png`} alt={`${project.name} screenshot`} />}
