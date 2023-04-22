@@ -4,6 +4,7 @@ import i18next, { t, changeLanguage } from 'i18next';
 
 import ProjectsData from '../data/ProjectsData.js';
 
+import Contact from '../components/Contact';
 import HomepageProject from '../components/HomepageProject';
 import ProjectList from '../components/ProjectList';
 
@@ -26,5 +27,6 @@ const projects = ProjectsData.getProjects();
 			<HomepageProject project={project} />
 		)}
 		<ProjectList projects={projects} />
+		<Contact />
 	</body>
 </html>

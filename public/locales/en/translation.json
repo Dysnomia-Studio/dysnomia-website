@@ -1,6 +1,7 @@
 {
-	"site": {
-		"description": ""
+	"contact": {
+		"title": "Contact",
+		"text": "You can contact us at contact[at]dysnomia.studio if needed. Or on:"
 	},
 	"projects": {
 		"alchemistry": {
