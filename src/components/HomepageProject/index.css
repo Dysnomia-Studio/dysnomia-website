@@ -1,5 +1,5 @@
 .homepage-project {
-	height: 100vh;
+	min-height: 100vh;
 	width: calc(100vw - 300px);
 	margin-bottom: 1rem;
 
