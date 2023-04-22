@@ -6,7 +6,7 @@ export default function Contact() {
 	const { t } = useTranslation("translation");
 
 	return (
-		<div className="contact">
+		<div className="contact" id="contact">
 			<h2>{t('contact.title')}</h2>
 			<p>{t('contact.text')}</p>
 			<ul>

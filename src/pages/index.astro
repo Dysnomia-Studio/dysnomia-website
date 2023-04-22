@@ -6,7 +6,7 @@ import ProjectsData from '../data/ProjectsData.js';
 
 import Contact from '../components/Contact';
 import HomepageProject from '../components/HomepageProject';
-import ProjectList from '../components/ProjectList';
+import Sidebar from '../components/Sidebar';
 
 import './index.css';
 
@@ -26,7 +26,7 @@ const projects = ProjectsData.getProjects();
 		{projects.map((project) =>
 			<HomepageProject project={project} />
 		)}
-		<ProjectList projects={projects} />
+		<Sidebar projects={projects} />
 		<Contact />
 	</body>
 </html>

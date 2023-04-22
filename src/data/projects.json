@@ -15,6 +15,7 @@
 			}
 		],
 		"hasLogo": true,
+		"inSidebar": true,
 		"screenshots": 3
 	},
 	"extortion": {
@@ -33,6 +34,7 @@
 			}
 		],
 		"hasLogo": true,
+		"inSidebar": true,
 		"screenshots": 3
 	},
 	"galactae": {
@@ -51,6 +53,46 @@
 			}
 		],
 		"hasLogo": true,
+		"inSidebar": true,
 		"screenshots": 3
+	},
+	"downstatus": {
+		"id": "downstatus",
+		"name": "Downstat.us",
+		"links": [
+			{
+				"name": "Website",
+				"icon": "/img/website.webp",
+				"url": "https://downstat.us"
+			}
+		],
+		"hasLogo": false,
+		"screenshots": 1
+	},
+	"achieve-games": {
+		"id": "achieve-games",
+		"name": "Achieve.games",
+		"links": [
+			{
+				"name": "Website",
+				"icon": "/img/website.webp",
+				"url": "https://achieve.games"
+			}
+		],
+		"hasLogo": false,
+		"screenshots": 1
+	},
+	"dehash-me": {
+		"id": "dehash-me",
+		"name": "Dehash.me",
+		"links": [
+			{
+				"name": "Website",
+				"icon": "/img/website.webp",
+				"url": "https://dehash.me"
+			}
+		],
+		"hasLogo": false,
+		"screenshots": 1
 	}
 }

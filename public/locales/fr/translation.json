@@ -12,6 +12,15 @@
 		},
 		"galactae": {
 			"description": "Votre prédécesseur est mort, vous devez maintenant choisir de quelle manière diriger votre nation: PDG, Président ou Empereur, il vous faudra de l'audace et de la stratégie afin de dévellopper votre nation au delà des étoiles!\n\nAvec vos choix, votre nation se forgera une identité propre à travers la galaxie, les difficultés seront différentes, mais aussi les options de conquêtes ou de colonisation, et bien d'autres facettes du métier de dirigeant."
+		},
+		"achieve-games": {
+			"description": "Suivez vos succès à travers les différentes bibliotheques de jeux."
+		},
+		"downstatus": {
+			"description": "Sachez si un service populaire fonctionne ou pas."
+		},
+		"dehash-me": {
+			"description": "Dehash.me a été créé afin de sensibiliser à la faiblesse de certains algorithmes de hashing.\nLe site possède son propre dictionnaire."
 		}
 	}
 }

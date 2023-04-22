@@ -1,4 +1,4 @@
-.project-list {
+.sidebar {
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -10,13 +10,25 @@
 
 	padding: 1rem;
 }
-.project-list-dysnomia-logo {
+@media (max-width: 1150px) {
+	.sidebar {
+		display: none;
+	}
+}
+/* TODO: mobile */
+
+.sidebar-dysnomia-logo {
 	margin-bottom: 1rem;
 	padding-bottom: 1rem;
-	border-bottom: 1px solid #ffffff11;
 }
-.project-list img {
+.sidebar img {
 	max-width: 80%;
+}
+
+.project-list {
+	border-bottom: 1px solid #ffffff11;
+	border-top: 1px solid #ffffff11;
+	margin-bottom: 1rem;
 }
 
 .project-list-item {
@@ -36,10 +48,13 @@
 	padding-bottom: 0.5rem;
 }
 
-@media (max-width: 1150px) {
-	.project-list {
-		display: none;
-	}
+.sidebar-link {
+	color: white;
+	display: block;
+	padding: 0.3rem;
+	text-align: center;
+	text-decoration: none;
 }
-
-/* TODO: mobile */
+.sidebar-link:hover {
+	text-decoration: underline;
+}

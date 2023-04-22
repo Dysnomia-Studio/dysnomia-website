@@ -12,6 +12,15 @@
 		},
 		"galactae": {
 			"description": "Your predecessor is dead ... Now, you need to choose how to lead your nation: CEO, President or Emperor, you need audacity and strategy to raise your nation in the whole the galaxy!\n\nDepending on your choices, your nation will make its own identity, difficulties will be differents, but also conquest and colonization options, and many other leader sides."
+		},
+		"achieve-games": {
+			"description": "Track achievements from all your favorite game libraries."
+		},
+		"downstatus": {
+			"description": "See if a popular website is up or not."
+		},
+		"dehash-me": {
+			"description": "Dehash.me was created to raise awareness on basic hashing weaknesses.\nIt owns and generate its own (weak) hashes dictionnary."
 		}
 	}
 }
