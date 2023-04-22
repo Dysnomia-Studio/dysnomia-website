@@ -1,0 +1,17 @@
+.privacy {
+	color: white;
+	padding: 1rem;
+}
+
+.privacy a {
+	color: white;
+	text-decoration: none;
+}
+.privacy a:hover {
+	text-decoration: underline;
+}
+
+.privacy h2 {
+	text-align: center;
+	margin-top: 4rem;
+}

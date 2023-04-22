@@ -1,6 +1,6 @@
 ---
 // src/pages/index.astro
-import i18next, { t, changeLanguage } from 'i18next';
+import i18next from 'i18next';
 
 import ProjectsData from '../data/ProjectsData.js';
 
@@ -27,5 +27,8 @@ const projects = ProjectsData.getProjects();
 		)}
 		<Sidebar projects={projects} />
 		<Contact />
+		<br>
+
+		<p class="legal">Dysnomia - SAS au capital de 1000€ - SIREN: 900 705 989</p>
 	</body>
 </html>

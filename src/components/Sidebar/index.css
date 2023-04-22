@@ -8,7 +8,7 @@
 	text-align: center;
 	width: calc(300px - 3rem);
 
-	padding: 1rem;
+	padding: 0.5rem;
 }
 @media (max-width: 1150px) {
 	.sidebar {
@@ -17,10 +17,6 @@
 }
 /* TODO: mobile */
 
-.sidebar-dysnomia-logo {
-	margin-bottom: 1rem;
-	padding-bottom: 1rem;
-}
 .sidebar img {
 	max-width: 80%;
 }

@@ -1,0 +1,89 @@
+---
+// src/pages/privacy.astro
+import i18next, { t } from 'i18next';
+
+import './index.css';
+import './privacy.css';
+---
+
+<html lang={i18next.language}>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="shortcut icon" type="image/png" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Dysnomia</title>
+	</head>
+	<body>
+		<div class="privacy">
+			<a href="/">{t('privacy.back-to-index')}</a>
+
+			<h1>{t('privacy.mainTitle')}</h1>
+
+			<div id="general">
+				<h2>{t('privacy.general')}</h2>
+
+				<h3 id="usage-statistics">{t('privacy.usage-statistics-title')}</h3>
+				<p><strong>{t('privacy.usage-statistics-data')}</strong> {t('privacy.usage-statistics-text')}</p>
+
+				<h3 id="logs">{t('privacy.logs-title')}</h3>
+				<p><strong>{t('privacy.logs-data')}</strong> {t('privacy.logs-text')}</p>
+
+				<h3 id="bots">{t('privacy.bots-title')}</h3>
+				<p><strong>{t('privacy.bots-data')}</strong> {t('privacy.bots-text')}</p>
+
+				<h3 id="advertisement">{t('privacy.advertisement-title')}</h3>
+				<p>{t('privacy.advertisement-text').split('%url%')[0]} <a href="https://support.google.com/adsense/answer/1348695">https://support.google.com/adsense/answer/1348695</a> {t('privacy.advertisement-text').split('%url%')[1]}</p>
+
+				<h3 id="language">{t('privacy.language-title')}</h3>
+				<p>{t('privacy.language-text')}</p>
+			</div>
+
+			<div id="achieve-games">
+				<h2><a href="https://achieve.games">Achieve.games {t('privacy.see-general')}</a></h2>
+
+				<h3><a href="#usage-statistics">{t('privacy.usage-statistics-title')} {t('privacy.see-general')}</a></h3>
+				<h3><a href="#logs">{t('privacy.logs-title')} {t('privacy.see-general')}</a></h3>
+				<h3><a href="#bots">{t('privacy.bots-title')} {t('privacy.see-general')}</a></h3>
+				<h3><a href="#advertisement">{t('privacy.advertisement-title')} {t('privacy.see-general')}</a></h3>
+
+				<h3>Steam</h3>
+				<p>{t('privacy.achieve-games-steam')}</p>
+
+				<h3>Blizzard</h3>
+				<p>{t('privacy.achieve-games-blizzard')}</p>
+
+				<h3>{t('privacy.achieve-games-user-generic-title')}</h3>
+				<p>{t('privacy.achieve-games-user-generic-text1')}</p>
+				<p>{t('privacy.achieve-games-user-generic-text2')}</p>
+
+				<h3>Cookies</h3>
+				<p>{t('privacy.achieve-games-cookie')}</p>
+			</div>
+
+			<div id="dehash-me">
+				<h2><a href="https://dehash.me">Dehash.me</a></h2>
+
+				<h3><a href="#usage-statistics">{t('privacy.usage-statistics-title')} {t('privacy.see-general')}</a></h3>
+				<h3><a href="#logs">{t('privacy.logs-title')} {t('privacy.see-general')}</a></h3>
+				<h3><a href="#bots">{t('privacy.bots-title')} {t('privacy.see-general')}</a></h3>
+				<h3><a href="#advertisement">{t('privacy.advertisement-title')} {t('privacy.see-general')}</a></h3>
+
+				<h3>Cookies</h3>
+				<p>{t('privacy.dehash-me-cookie')}</p>
+			</div>
+
+			<div id="galactae">
+				<h2><a href="https://galactae.eu">Galactae: Space Age Dawn</a></h2>
+
+				<h3><a href="#usage-statistics">{t('privacy.usage-statistics-title')} {t('privacy.see-general')}</a></h3>
+				<h3><a href="#logs">{t('privacy.logs-title')} {t('privacy.see-general')}</a></h3>
+				<h3><a href="language">{t('privacy.language-title')} {t('privacy.see-general')}</a></h3>
+				<h3><a href="https://03.cdn.elanis.eu/website/pdf/cgu.pdf">{t('privacy.galactae-tos')}</a></h3>
+			</div>
+		</div>
+
+		<br>
+
+		<p class="legal">Dysnomia - SAS au capital de 1000€ - SIREN: 900 705 989</p>
+	</body>
+</html>

@@ -22,5 +22,43 @@
 		"dehash-me": {
 			"description": "Dehash.me a été créé afin de sensibiliser à la faiblesse de certains algorithmes de hashing.\nLe site possède son propre dictionnaire."
 		}
+	},
+	"privacy": {
+		"back-to-index": "← Retour à la page d'accueil",
+
+		"mainTitle": "Données personnelles",
+
+		"general": "Géneral",
+
+		"usage-statistics-title": "Statistiques d'utilisation",
+		"usage-statistics-data": "Adresse IP, Nom du systeme d'exploitation, Nom du navigateur, Date de la visite, Methode HTTP, Temps réponse serveur",
+		"usage-statistics-text": "sont stockées dans nos statistiques d'utilisation. Ces données sont utilisées uniquement en interne et ne seront jamais partagées à des entreprises tiers. Nous les utilisons afin de detecter les bots et de sortir des beaux graphiques d'utilisation.",
+	
+		"logs-title": "Journalisation",
+		"logs-data": "Adresse IP, User Agent (Nom et version du navigateur, Nom et version du système d'exploitation), Date de visite",
+		"logs-text": "sont journalisés pour des raisons de sécurités. Ces données sont utilisées uniquement en interne et ne seront jamais partagées à des entreprises tiers.",
+
+		"bots-title": "Bots et spam",
+		"bots-data": "Adresse IP, cookie de session, date de la visite",
+		"bots-text": "sont utilisés afin de bloquer les bots et spammers. Ces données disparaitront automatiquement de nos serveurs en moins de quelques heures.",
+
+		"advertisement-title": "Publicité",
+		"advertisement-text": "Certains sites Dysnomia affichent de la publicité via Google Adsense. Nous n'avons aucun contrôle de la manière dont Google stocke et gère vos données, plus d'informations sur %url%.",
+
+		"language-title": "Traduction et gestion des langues",
+		"language-text": "Certaines sites Dysnomia ont un fonctionnement multi-langue. Nous utilisons un cookie afin de stocker votre préference entre vos visites.",
+		
+		"see-general": "(Voir \"general\")",
+
+		"achieve-games-steam": "Nous ne stockons aucune information personnelle non publique venant des comptes Steam. Des données peuvent être temporairement stockées mais automatiquement netoyées. Si vous passez votre profil Steam en privé, tout sera automatiquement nettoyé en moins de quelques jours (dependant du cache).",
+		"achieve-games-blizzard": "Nous ne stockons aucune information personnelle non publique venant des comptes Steam. Des données peuvent être temporairement stockées mais automatiquement netoyées. Si vous passez votre profil Steam en privé, tout sera automatiquement nettoyé en moins de quelques jours (dependant du cache).",
+		"achieve-games-user-generic-title": "Données utilisateurs generiques",
+		"achieve-games-user-generic-text1": "Nous gardons en base de données les liens entre vos differents comptes de jeu afin de vous aider à vous reconnecter facilement. Nous gardons uniquement votre identifiant et votre nom d'utilisateur dans ce but.",
+		"achieve-games-user-generic-text2": "Nous mettons en cache les données publiques de chaque profil afin d'accelerer le chargement des statistiques des succès et d'alléger la charge sur les serveurs des bibliothèques de jeu, ce cache peut durer jusqu'a 3 mois après le dernier chargement de ces données depuis les API publiques.",
+		"achieve-games-cookie": "Le seul cookie que nous utilisons et gerons est le cookie de session. Il sert à empecher les bots ou le spam et à vous connecter à vos comptes.",
+		
+		"dehash-me-cookie": "Le seul cookie que nous utilisons et gerons est le cookie de session. Il sert à empecher les bots ou le spam.",
+
+		"galactae-tos": "Conditions générales d'utilisation"
 	}
 }
