@@ -34,5 +34,23 @@
 		],
 		"hasLogo": true,
 		"screenshots": 3
+	},
+	"galactae": {
+		"id": "galactae",
+		"name": "Galactae: Space Age Dawn",
+		"links": [
+			{
+				"name": "Website",
+				"icon": "/img/website.webp",
+				"url": "https://galactae.eu"
+			},
+			{
+				"name": "Play Store",
+				"icon": "/img/android.webp",
+				"url": "https://play.google.com/store/apps/details?id=com.dysnomia.galactae"
+			}
+		],
+		"hasLogo": true,
+		"screenshots": 3
 	}
 }

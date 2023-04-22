@@ -18,6 +18,7 @@ export default function HomepageProject({ project }) {
 				{project.hasLogo && <a target="_blank" href={project.links[0].url}><img className="homepage-project-logo" src={`/img/${project.id}/logo.png`} alt={`${project.name} logo`} /></a>}
 
 				{project.screenshots > 0 && <img className="homepage-project-screenshot-mobile" src={`/img/${project.id}/screenshot-0.png`} alt={`${project.name} screenshot`} />}
+				{/* TODO: click to view screenshot */}
 
 				<p>{t(`projects.${project.id}.description`)}</p>
 

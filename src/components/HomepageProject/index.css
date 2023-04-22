@@ -94,6 +94,7 @@
 .homepage-project-link img {
 	max-height: 4rem;
 	display: block;
+	margin: 0 auto;
 }
 
 /**
@@ -110,4 +111,7 @@
 }
 .homepage-project-extortion .homepage-project-screenshots img {
 	box-shadow: 0 0 40px 2px #34393f;
+}
+.homepage-project-galactae .homepage-project-screenshots img {
+	box-shadow: 0 0 40px 2px #1e101e;
 }

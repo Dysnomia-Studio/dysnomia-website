@@ -32,6 +32,9 @@
 .project-list-item:hover {
 	border-color: #ffffff33;
 }
+.project-list-item img {
+	padding-bottom: 0.5rem;
+}
 
 @media (max-width: 1150px) {
 	.project-list {
