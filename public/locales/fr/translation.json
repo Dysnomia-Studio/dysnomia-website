@@ -4,10 +4,10 @@
 	},
 	"projects": {
 		"alchemistry": {
-			"description": "Pratiquez l'Alchimie, alias l'art de fusionner des éléments afin d'en créer de nouveaux ! Résolvez les défis ou jouez plus librement afin de découvrir tous les éléments disponibles. Créez tout et n'importe quoi pourvu que vous en ayez la recette."
+			"description": "Pratiquez l'Alchimie, alias l'art de fusionner des éléments afin d'en créer de nouveaux !\nRésolvez les défis ou jouez plus librement afin de découvrir tous les éléments disponibles.\nCréez tout et n'importe quoi pourvu que vous en ayez la recette.\n\nA travers les différents défis, utilisez les ingrédients qui vous sont fournis afin de créer des éléments intermédiaires dans le but d'atteindre l'objectif donné !\nLes défis vont doucement augmenter en difficulté, commençant avec une ou deux étapes intermédiaires et finissant avec des dizaines !\n\nUtilisez le mode bac à sable afin de créer librement n'importe quel élément, et peut-être de créer des éléments rares, voire de tous les découvrir !\nDes centaines d'éléments sont disponibles à créer, certains sont simples à trouver, mais d'autres nécessiteront un peu plus de réflexion ..."
 		},
 		"extortion": {
-			"description": ""
+			"description": "Vous êtes un ingénieur en informatique avec un secret inavouable.\nQuelqu'un l'a découvert et vous fait chanter afin de pirater des serveurs et récupérer des informations secrètes pour son compte.\nAllez-vous réussir ses missions ou bien essayer de le trouver et de vous venger ?\n\nDans cette histoire interactive, vous allez jouer un ingénieur en informatique sur son interface en ligne de commandes. Vous aurez accès à de nombreuses commandes et serveurs auxquels se connecter et/ou attaquer. Vous allez être forcé à attaquer des serveurs de plus en plus sécurisés.\nAllez-vous choisir de suivre docilement les ordres ? Se connecter, attaquer, télécharger, leurrer les sécurités, briser des pare-feux, et bien d'autres actions sont possibles …\nOu allez-vous choisir de faire le minimum de missions afin de traquer votre maître chanteur et vous venger ?\nCette histoire interactive vous laissera faire des choix, mais ferez vous les bons ?\nLe seul moyen de savoir : rejoignez et participez à cette histoire."
 		}
 	}
 }

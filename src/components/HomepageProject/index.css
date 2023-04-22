@@ -15,9 +15,22 @@
 
 .homepage-project-screenshots, .homepage-project-details {
 	display: inline-block;
-	vertical-align: top;
+	vertical-align: middle;
 	width: 50%;
 }
+
+.homepage-project-screenshots {
+	width: 50%;
+}
+.homepage-project-details {
+	padding: 1rem;
+	width: calc(50% - 2rem);
+}
+.homepage-project-details p {
+	margin-top: 3rem;
+	white-space: pre-line;
+}
+
 .homepage-project-screenshot-mobile {
 	display: none;
 }
@@ -62,7 +75,26 @@
 	margin-left: 10%;
 }
 
+.homepage-project-link-list {
+	text-align: center;
+	margin-top: 2rem;
+}
+.homepage-project-link {
+	display: inline-block;
+	text-align: center;
 
+	margin: 1rem;
+
+	color: white;
+	text-decoration: none;
+}
+.homepage-project-link:hover {
+	text-decoration: underline;
+}
+.homepage-project-link img {
+	max-height: 4rem;
+	display: block;
+}
 
 /**
  * Project-specific design

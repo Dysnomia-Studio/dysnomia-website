@@ -5,12 +5,12 @@
 		"links": [
 			{
 				"name": "Steam",
-				"icon": "/img/steam.png",
+				"icon": "/img/steam.webp",
 				"url": "https://store.steampowered.com/app/1730540/Alchemistry/"
 			},
 			{
 				"name": "Itch.io",
-				"icon": "/img/itch.png",
+				"icon": "/img/itch.webp",
 				"url": "https://elanis.itch.io/alchemistry"
 			}
 		],
@@ -23,12 +23,12 @@
 		"links": [
 			{
 				"name": "Steam",
-				"icon": "/img/steam.png",
+				"icon": "/img/steam.webp",
 				"url": "https://store.steampowered.com/app/1299430/Extortion/"
 			},
 			{
 				"name": "Itch.io",
-				"icon": "/img/itch.png",
+				"icon": "/img/itch.webp",
 				"url": "https://elanis.itch.io/extortion"
 			}
 		],

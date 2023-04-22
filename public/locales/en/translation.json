@@ -4,10 +4,10 @@
 	},
 	"projects": {
 		"alchemistry": {
-			"description": "Practice Alchemistry, aka the art to merge elements to discover new ones ! Solve challenges or play freely to discover every elements. Craft the entire world from fire to life."
+			"description": "Practice Alchemistry, aka the art to merge elements to discover new ones !\nSolve challenges or play freely to discover every elements.\nCraft the entire world from fire to life.\n\nThrough challenges, use the given elements to craft transitional elements to reach given objective !\nChallenges will gradually increase difficulties, starting with one or two steps crafts and finishing with dozen of intermediate elements !\n\nUse sandbox mode to freely craft items together and maybe succeed to create rare items, and to discover everything !\nHundred of elements are available to craft, some are easy to guess, but the latest are not that easy ..."
 		},
 		"extortion": {
-			"description": ""
+			"description": "You're a computer engineer with a terrible secret.\nSomeone is blackmailing you and now, you have to hack some servers and get secret files for him.\nWould you succeed to achieve his missions or would you find him and revenge ?\n\nIn this interactive story, you're playing a computer engineer on their console line interface. You have access to a whole set of commands and servers to connect to and/or attack. You'll be forced to attack servers with gradually increasing security. \nWill you succeed to achieve all missions that will be given to you? Connect, attack, download files, bait security, break firewalls, and many other actions that can be possible.\nOr will you choose to achieve a minimum number of missions to track and revenge from your blackmailer?\nThis interactive story will let you make some choices but will you make the right ones?\nOne way to know: join the story."
 		}
 	}
 }
