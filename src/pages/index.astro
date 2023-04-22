@@ -18,11 +18,10 @@ const projects = ProjectsData.getProjects();
 		<meta charset="utf-8" />
 		<link rel="shortcut icon" type="image/png" href="/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
 		<title>Dysnomia</title>
-		<meta name="description" content={t("site.description")} />
 	</head>
 	<body>
+		{/* TODO: change language */}
 		{projects.map((project) =>
 			<HomepageProject project={project} />
 		)}
