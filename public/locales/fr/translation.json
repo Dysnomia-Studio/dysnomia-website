@@ -1,0 +1,13 @@
+{
+	"site": {
+		"description": "test"
+	},
+	"projects": {
+		"alchemistry": {
+			"description": "Pratiquez l'Alchimie, alias l'art de fusionner des éléments afin d'en créer de nouveaux ! Résolvez les défis ou jouez plus librement afin de découvrir tous les éléments disponibles. Créez tout et n'importe quoi pourvu que vous en ayez la recette."
+		},
+		"extortion": {
+			"description": ""
+		},
+	}
+}

@@ -1,0 +1,30 @@
+---
+// src/pages/index.astro
+import i18next, { t } from 'i18next';
+import { Trans, HeadHrefLangs } from 'astro-i18next/components';
+
+import ProjectsData from '../data/ProjectsData.js';
+
+import HomepageProject from '../components/HomepageProject';
+
+import './index.css';
+
+const projects = ProjectsData.getProjects();
+---
+
+<html lang={i18next.language}>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="shortcut icon" type="image/png" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Dysnomia</title>
+		<meta name="description" content={t("site.description")} />
+		<HeadHrefLangs />
+	</head>
+	<body>
+		{projects.map((project) =>
+			<HomepageProject project={project} description={t(`projects.${project.id}.description`)} />
+		)}
+	</body>
+</html>

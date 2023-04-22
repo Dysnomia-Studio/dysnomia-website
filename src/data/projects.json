@@ -1,0 +1,38 @@
+{
+	"alchemistry": {
+		"id": "alchemistry",
+		"name": "Alchemistry",
+		"links": [
+			{
+				"name": "Steam",
+				"icon": "/img/steam.png",
+				"url": "https://store.steampowered.com/app/1730540/Alchemistry/"
+			},
+			{
+				"name": "Itch.io",
+				"icon": "/img/itch.png",
+				"url": "https://elanis.itch.io/alchemistry"
+			}
+		],
+		"hasLogo": true,
+		"screenshots": 3
+	},
+	"extortion": {
+		"id": "extortion",
+		"name": "Extortion",
+		"links": [
+			{
+				"name": "Steam",
+				"icon": "/img/steam.png",
+				"url": "https://store.steampowered.com/app/1299430/Extortion/"
+			},
+			{
+				"name": "Itch.io",
+				"icon": "/img/itch.png",
+				"url": "https://elanis.itch.io/extortion"
+			}
+		],
+		"hasLogo": true,
+		"screenshots": 3
+	}
+}

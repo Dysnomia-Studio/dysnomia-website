@@ -1,0 +1,81 @@
+.homepage-project {
+	height: 100vh;
+	width: calc(100vw - 300px);
+	margin-top: 1rem;
+
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@media (max-width: 800px) {
+	.homepage-project {
+		width: 100vw;
+	}
+}
+
+.homepage-project-screenshots, .homepage-project-details {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+}
+.homepage-project-screenshot-mobile {
+	display: none;
+}
+.homepage-project-screenshot-mobile {
+	max-width: 90%;
+	margin-left: 5%;
+}
+
+@media (max-width: 1000px) {
+	.homepage-project-screenshots {
+		display: none;
+	}
+
+	.homepage-project-details {
+		width: 100%;
+	}
+
+	.homepage-project-screenshot-mobile {
+		display: initial;
+	}
+}
+
+.homepage-project-screenshots img {
+	height: 26vh;
+	margin-top: 5vh;
+	margin-left: 10%;
+}
+
+.homepage-project-details {
+	color: white;
+	padding-top: 5vh;
+}
+
+.homepage-project-title {
+	font-weight: normal;
+	font-size: 3rem;
+
+}
+
+.homepage-project-logo {
+	width: 80%;
+	margin-left: 10%;
+}
+
+
+
+/**
+ * Project-specific design
+ */
+.homepage-project-alchemistry .homepage-project-screenshots img {
+	/*background: linear-gradient(#0f324a66, #4c364f66)*/
+	/*box-shadow:
+		-8px -8px 40px -5px #0f324a,
+		 8px -8px 40px -15px #2d344e,
+		-8px  8px 40px -15px #2d344e,
+		 8px  8px 40px -5px #4c364f;*/
+	box-shadow: 0 0 40px 2px #2d344e;
+}
+.homepage-project-extortion .homepage-project-screenshots img {
+	box-shadow: 0 0 40px 2px #34393f;
+}
