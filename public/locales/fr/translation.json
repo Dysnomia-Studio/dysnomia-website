@@ -1,6 +1,6 @@
 {
 	"site": {
-		"description": "test"
+		"description": ""
 	},
 	"projects": {
 		"alchemistry": {
@@ -8,6 +8,6 @@
 		},
 		"extortion": {
 			"description": ""
-		},
+		}
 	}
 }
