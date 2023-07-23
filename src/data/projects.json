@@ -12,6 +12,11 @@
 				"name": "Itch.io",
 				"icon": "/img/itch.webp",
 				"url": "https://elanis.itch.io/alchemistry"
+			},
+			{
+				"name": "Press Kit",
+				"icon": "/img/press.webp",
+				"url": "https://cloud.dysnomia.studio/d/6a8cb9633abd45dc94cc/"
 			}
 		],
 		"hasLogo": true,
@@ -31,6 +36,11 @@
 				"name": "Itch.io",
 				"icon": "/img/itch.webp",
 				"url": "https://elanis.itch.io/extortion"
+			},
+			{
+				"name": "Press Kit",
+				"icon": "/img/press.webp",
+				"url": "https://cloud.dysnomia.studio/d/5c01ce3f97fb4ab0b16c/"
 			}
 		],
 		"hasLogo": true,
