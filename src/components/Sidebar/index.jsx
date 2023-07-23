@@ -22,6 +22,7 @@ export default function ProjectList({ projects }) {
 			<a className="sidebar-link" href="https://blog.dysnomia.studio">Blog</a>
 			<a className="sidebar-link" href="https://github.com/Dysnomia-Studio">Github</a>
 			<a className="sidebar-link" href="https://twitter.com/DysnomiaStudio">Twitter</a>
+			<a className="sidebar-link" href="https://patreon.com/DysnomiaStudio">Patreon</a>
 			<a className="sidebar-link" href="/privacy">{t('privacy.mainTitle')}</a>
 		</div>
 	);	

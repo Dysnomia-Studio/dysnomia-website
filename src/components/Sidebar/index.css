@@ -8,7 +8,7 @@
 	text-align: center;
 	width: calc(300px - 3rem);
 
-	padding: 0.5rem;
+	padding: 0.2rem 0.5rem;
 }
 @media (max-width: 1150px) {
 	.sidebar {
@@ -24,7 +24,7 @@
 .project-list {
 	border-bottom: 1px solid #ffffff11;
 	border-top: 1px solid #ffffff11;
-	margin-bottom: 1rem;
+	margin-bottom: 0.7rem;
 }
 
 .project-list-item {
@@ -32,7 +32,7 @@
 	color: white;
 	display: inline-block;
 	margin: 1rem 0;
-	padding: 0.5rem;
+	padding: 0.3rem;
 	
 	text-decoration: none;
 	width: calc(100% - 2px - 1rem);
@@ -41,7 +41,7 @@
 	border-color: #ffffff33;
 }
 .project-list-item img {
-	padding-bottom: 0.5rem;
+	padding-bottom: 0.4rem;
 }
 
 .sidebar-link {
