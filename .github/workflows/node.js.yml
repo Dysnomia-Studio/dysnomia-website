@@ -11,10 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Use Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: 18
+        node-version: 20
         cache: 'npm'
 
     - name: SonarQube Scan
@@ -47,10 +47,10 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Use Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 20
           cache: 'npm'
 
       - run: npm ci
@@ -80,10 +80,10 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Use Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 20
           cache: 'npm'
 
       - run: npm ci
