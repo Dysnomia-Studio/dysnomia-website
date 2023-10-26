@@ -11,14 +11,14 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/react": "^2.3.2",
-    "@types/react": "^18.2.20",
-    "@types/react-dom": "^18.2.7",
-    "astro": "^2.10.12",
+    "@astrojs/react": "^3.0.4",
+    "@types/react": "^18.2.33",
+    "@types/react-dom": "^18.2.14",
+    "astro": "^3.3.4",
     "astro-i18next": "^1.0.0-beta.21",
-    "i18next": "^23.4.4",
+    "i18next": "^23.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-i18next": "^13.1.2"
+    "react-i18next": "^13.3.1"
   }
 }
