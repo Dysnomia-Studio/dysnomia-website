@@ -1,6 +1,8 @@
-import './index.css';
-
 import { useTranslation } from 'react-i18next';
+
+import ProjectPropsType from '../../data/Project.propsType.js';
+
+import './index.css';
 
 export default function HomepageProject({ project }) {
 	const { t } = useTranslation("translation");
@@ -34,3 +36,7 @@ export default function HomepageProject({ project }) {
 		</div>
 	);
 }
+
+HomepageProject.propTypes = {
+	project: ProjectPropsType
+};

@@ -1,6 +1,9 @@
-import './index.css';
-
+import PropTypes from 'prop-types';
 import { useTranslation } from 'react-i18next';
+
+import ProjectPropsType from '../../data/Project.propsType.js';
+
+import './index.css';
 
 export default function ProjectList({ projects }) {
 	const { t } = useTranslation("translation");
@@ -27,3 +30,7 @@ export default function ProjectList({ projects }) {
 		</div>
 	);	
 }
+
+ProjectList.propTypes = {
+	projects: PropTypes.arrayOf(ProjectPropsType).isRequired
+};
