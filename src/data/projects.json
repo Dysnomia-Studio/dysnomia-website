@@ -85,19 +85,6 @@
 		"inSidebar": false,
 		"screenshots": 3
 	},
-	"downstatus": {
-		"id": "downstatus",
-		"name": "Downstat.us",
-		"links": [
-			{
-				"name": "Website",
-				"icon": "/img/website.webp",
-				"url": "https://downstat.us"
-			}
-		],
-		"hasLogo": false,
-		"screenshots": 1
-	},
 	"achieve-games": {
 		"id": "achieve-games",
 		"name": "Achieve.games",
