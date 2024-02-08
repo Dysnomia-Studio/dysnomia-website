@@ -9,8 +9,8 @@ export default function ProjectList({ projects }) {
 		<div className="sidebar">
 			<img className='sidebar-dysnomia-logo' src='/img/dysnomia.webp' />
 			<div className="project-list">
-				{projects.map((project, index) => (
-					project.inSidebar && <a href={`#${project.id}`} className="project-list-item" key={index}>
+				{projects.map((project) => (
+					project.inSidebar && <a href={`#${project.id}`} className="project-list-item" key={project.id}>
 						<img src={`/img/${project.id}/sidebar-logo.webp`} />
 						{project.name}
 					</a>

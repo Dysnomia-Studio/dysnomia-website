@@ -12,12 +12,4 @@ export default class ProjectsData {
 	static getProject(id) {
 		return projectList[id];
 	}
-
-	static getLatestUpdated(amount, major = true) {
-		return Object.values(projectList).filter((project) => {
-			return !major || project.major === true;
-		}).filter((_, index) => {
-			return (index < 3);
-		});
-	}
 }
