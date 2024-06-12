@@ -17,7 +17,7 @@ export default function HomepageProject({ project }) {
 
 			<div className="homepage-project-details">
 				{!project.hasLogo && <h2 className="homepage-project-title">{project.name}</h2>}
-				{project.hasLogo && <a target="_blank" href={project.links[0].url}><img className="homepage-project-logo" src={`/img/${project.id}/logo.webp`} alt={`${project.name} logo`} /></a>}
+				{project.hasLogo && <a target="_blank" rel="noopener noreferrer" href={project.links[0].url}><img className="homepage-project-logo" src={`/img/${project.id}/logo.webp`} alt={`${project.name} logo`} /></a>}
 
 				{project.screenshots > 0 && <img className="homepage-project-screenshot-mobile" src={`/img/${project.id}/screenshot-0.webp`} alt={`${project.name} screenshot`} />}
 				{/* TODO: click to view screenshot */}
@@ -25,8 +25,8 @@ export default function HomepageProject({ project }) {
 				<p>{t(`projects.${project.id}.description`)}</p>
 
 				<div className="homepage-project-link-list">
-					{project.links.map((x, i) => (
-						<a key={i} className="homepage-project-link" target="_blank" href={x.url}>
+					{project.links.map((x) => (
+						<a key={x.name} className="homepage-project-link" target="_blank" rel="noopener noreferrer" href={x.url}>
 							<img src={x.icon} alt={x.name} />
 							<span>{x.name}</span>
 						</a>

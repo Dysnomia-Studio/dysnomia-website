@@ -10,11 +10,11 @@ export default function ProjectList({ projects }) {
 
 	return (
 		<div className="sidebar">
-			<img className='sidebar-dysnomia-logo' src='/img/dysnomia.webp' />
+			<img className="sidebar-dysnomia-logo" src="/img/dysnomia.webp" alt="Logo" />
 			<div className="project-list">
 				{projects.map((project) => (
 					project.inSidebar && <a href={`#${project.id}`} className="project-list-item" key={project.id}>
-						<img src={`/img/${project.id}/sidebar-logo.webp`} />
+						<img src={`/img/${project.id}/sidebar-logo.webp`} alt={project.name} />
 						{project.name}
 					</a>
 				))}
