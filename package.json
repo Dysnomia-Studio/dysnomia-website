@@ -11,15 +11,15 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/react": "^3.5.0",
-    "@types/react": "^18.3.3",
+    "@astrojs/react": "^3.6.2",
+    "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3.0",
-    "astro": "^4.10.2",
+    "astro": "^4.15.11",
     "astro-i18next": "^1.0.0-beta.21",
-    "i18next": "^23.11.5",
+    "i18next": "^23.15.2",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-i18next": "^14.1.2"
+    "react-i18next": "^15.0.2"
   }
 }
