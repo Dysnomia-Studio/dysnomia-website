@@ -19,7 +19,7 @@ export default function ProjectList({ projects }) {
 					</a>
 				))}
 			</div>
-			<a className="sidebar-link" href="#downstatus">Websites</a>
+			<a className="sidebar-link" href="#achieve-games">Websites</a>
 			<a className="sidebar-link" href="#contact">{t('contact.title')}</a>
 			<a className="sidebar-link" href="https://bugs.dysnomia.studio">Bug Tracker</a>
 			<a className="sidebar-link" href="https://blog.dysnomia.studio">Blog</a>
