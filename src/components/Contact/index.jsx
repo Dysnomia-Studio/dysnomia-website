@@ -1,8 +1,8 @@
-import { t } from 'i18next';
+import PropTypes from 'prop-types';
 
 import './index.css';
 
-export default function Contact() {
+export default function Contact({ t }) {
 	return (
 		<div className="contact" id="contact">
 			<h2>{t('contact.title')}</h2>
@@ -15,3 +15,7 @@ export default function Contact() {
 		</div>
 	);
 }
+
+Contact.proptypes = {
+	t: PropTypes.func.isRequired,
+};

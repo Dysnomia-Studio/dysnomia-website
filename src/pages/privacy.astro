@@ -1,12 +1,15 @@
 ---
 // src/pages/privacy.astro
-import i18next, { t } from 'i18next';
+import { getLangFromUrl, useTranslations } from '/src/i18n/utils';
 
 import './index.css';
 import './privacy.css';
+
+const currLang = getLangFromUrl(Astro.url);
+const t = useTranslations(currLang);
 ---
 
-<html lang={i18next.language}>
+<html lang={currLang}>
 	<head>
 		<meta charset="utf-8" />
 		<link rel="shortcut icon" type="image/png" href="/favicon.png" />

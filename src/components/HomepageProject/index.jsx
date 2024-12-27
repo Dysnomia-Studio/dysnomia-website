@@ -1,10 +1,10 @@
-import { t } from 'i18next';
+import PropTypes from 'prop-types';
 
 import ProjectPropsType from '../../data/Project.propsType.js';
 
 import './index.css';
 
-export default function HomepageProject({ project }) {
+export default function HomepageProject({ project, t }) {
 	return (
 		<div id={project.id} className={`homepage-project homepage-project-${project.id}`}>
 			<div className="homepage-project-screenshots">
@@ -36,5 +36,6 @@ export default function HomepageProject({ project }) {
 }
 
 HomepageProject.propTypes = {
-	project: ProjectPropsType
+	project: ProjectPropsType,
+	t: PropTypes.func.isRequired,
 };

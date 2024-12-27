@@ -1,6 +1,6 @@
 ---
 // src/pages/index.astro
-import i18next from 'i18next';
+import { getLangFromUrl, useTranslations } from '/src/i18n/utils';
 
 import ProjectsData from '../data/ProjectsData.js';
 
@@ -10,10 +10,12 @@ import Sidebar from '../components/Sidebar';
 
 import './index.css';
 
+const currLang = getLangFromUrl(Astro.url);
+const t = useTranslations(currLang);
 const projects = ProjectsData.getProjects();
 ---
 
-<html lang={i18next.language}>
+<html lang={currLang}>
 	<head>
 		<meta charset="utf-8" />
 		<link rel="shortcut icon" type="image/png" href="/favicon.png" />
@@ -23,10 +25,10 @@ const projects = ProjectsData.getProjects();
 	<body>
 		{/* TODO: change language */}
 		{projects.map((project) =>
-			<HomepageProject project={project} />
+			<HomepageProject project={project} t={t} />
 		)}
-		<Sidebar projects={projects} />
-		<Contact />
+		<Sidebar projects={projects} t={t} />
+		<Contact t={t} />
 		<br>
 
 		<p class="legal">Dysnomia - SAS au capital de 1000€ - SIREN: 900 705 989</p>

@@ -1,11 +1,10 @@
 import PropTypes from 'prop-types';
-import { t } from 'i18next';
 
 import ProjectPropsType from '../../data/Project.propsType.js';
 
 import './index.css';
 
-export default function ProjectList({ projects }) {
+export default function ProjectList({ projects, t }) {
 	return (
 		<div className="sidebar">
 			<img className="sidebar-dysnomia-logo" src="/img/dysnomia.webp" alt="Logo" />
@@ -30,5 +29,6 @@ export default function ProjectList({ projects }) {
 }
 
 ProjectList.propTypes = {
-	projects: PropTypes.arrayOf(ProjectPropsType).isRequired
+	projects: PropTypes.arrayOf(ProjectPropsType).isRequired,
+	t: PropTypes.func.isRequired,
 };
