@@ -1,12 +1,10 @@
-import { useTranslation } from 'react-i18next';
+import { t } from 'i18next';
 
 import ProjectPropsType from '../../data/Project.propsType.js';
 
 import './index.css';
 
 export default function HomepageProject({ project }) {
-	const { t } = useTranslation("translation");
-
 	return (
 		<div id={project.id} className={`homepage-project homepage-project-${project.id}`}>
 			<div className="homepage-project-screenshots">

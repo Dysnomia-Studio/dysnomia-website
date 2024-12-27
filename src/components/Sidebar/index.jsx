@@ -1,13 +1,11 @@
 import PropTypes from 'prop-types';
-import { useTranslation } from 'react-i18next';
+import { t } from 'i18next';
 
 import ProjectPropsType from '../../data/Project.propsType.js';
 
 import './index.css';
 
 export default function ProjectList({ projects }) {
-	const { t } = useTranslation("translation");
-
 	return (
 		<div className="sidebar">
 			<img className="sidebar-dysnomia-logo" src="/img/dysnomia.webp" alt="Logo" />
