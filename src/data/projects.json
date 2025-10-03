@@ -1,4 +1,23 @@
 {
+	"logistik": {
+		"id": "logistik",
+		"name": "Logistik",
+		"links": [
+			{
+				"name": "Steam",
+				"icon": "/img/steam.webp",
+				"url": "https://store.steampowered.com/app/3928180/Logistik/"
+			},
+			{
+				"name": "Press Kit",
+				"icon": "/img/press.webp",
+				"url": "https://cloud.dysnomia.studio/d/1c2655e08e3d4ce4b354/"
+			}
+		],
+		"hasLogo": true,
+		"inSidebar": true,
+		"screenshots": 3
+	},
 	"manufacturinc": {
 		"id": "manufacturinc",
 		"name": "Manufactur'inc",
@@ -15,7 +34,7 @@
 			}
 		],
 		"hasLogo": true,
-		"inSidebar": true,
+		"inSidebar": false,
 		"screenshots": 3
 	},
 	"alchemistry": {

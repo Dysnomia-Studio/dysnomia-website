@@ -4,6 +4,9 @@
 		"text": "You can contact us at contact[at]dysnomia.studio if needed. Or on:"
 	},
 	"projects": {
+		"achieve-games": {
+			"description": "Track achievements from all your favorite game libraries."
+		},
 		"alchemistry": {
 			"description": "Practice Alchemistry, aka the art to merge elements to discover new ones !\nSolve challenges or play freely to discover every elements.\nCraft the entire world from fire to life.\n\nThrough challenges, use the given elements to craft transitional elements to reach given objective !\nChallenges will gradually increase difficulties, starting with one or two steps crafts and finishing with dozen of intermediate elements !\n\nUse sandbox mode to freely craft items together and maybe succeed to create rare items, and to discover everything !\nHundred of elements are available to craft, some are easy to guess, but the latest are not that easy ..."
 		},
@@ -13,11 +16,11 @@
 		"galactae": {
 			"description": "Your predecessor is dead ... Now, you need to choose how to lead your nation: CEO, President or Emperor, you need audacity and strategy to raise your nation in the whole the galaxy!\n\nDepending on your choices, your nation will make its own identity, difficulties will be differents, but also conquest and colonization options, and many other leader sides."
 		},
+		"logistik": {
+			"description": "Cargo, Commuters, and Chaos!\nLay tracks, schedule trains, and optimize routes to transport passengers and cargo across the map.\nBalance fuel costs, adapt to your environment, and demands in this ever-evolving train-based puzzle."
+		},
 		"manufacturinc": {
 			"description": "Lead your new company to success in this industry management game.\nBlueprint and optimize your production; make ethical choices to influence your worker conditions, ecological impact, automation level, and more.\n\nWill you create a simple manuFactory or a beneFactory?"
-		},
-		"achieve-games": {
-			"description": "Track achievements from all your favorite game libraries."
 		}
 	},
 	"privacy": {
