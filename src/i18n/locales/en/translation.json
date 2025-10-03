@@ -18,12 +18,6 @@
 		},
 		"achieve-games": {
 			"description": "Track achievements from all your favorite game libraries."
-		},
-		"downstatus": {
-			"description": "See if a popular website is up or not."
-		},
-		"dehash-me": {
-			"description": "Dehash.me was created to raise awareness on basic hashing weaknesses.\nIt owns and generate its own (weak) hashes dictionnary."
 		}
 	},
 	"privacy": {
@@ -45,9 +39,6 @@
 		"bots-data": "IP Address, session cookie, Date of visit",
 		"bots-text": "are used to prevent bots and spammers. This will automatically disappear from our servers after few hours.",
 
-		"advertisement-title": "Advertisement",
-		"advertisement-text": "Some Dysnomia websites uses Google AdSense for advertisement. We do not have control on how Google/use store your data. More information at %url%.",
-
 		"language-title": "Internationalization and localization",
 		"language-text": "Some Dysnomia websites works with multiples languages. We store a cookie on your computer to keep track of this setting between your visits.",
 		
@@ -59,8 +50,6 @@
 		"achieve-games-user-generic-text1": "We keep links between accounts, example: Battle.net and Steam account of the same person. We only keep public id and name in database for this purpose.",
 		"achieve-games-user-generic-text2": "We are caching public date from game library, this cache can be kept up to 3 months after latest time those data have been queried from public APIs.",
 		"achieve-games-cookie": "The only cookie we create and have control on is the session Cookie. It's used to prevent bots or spam and to retrieve user accounts.",
-		
-		"dehash-me-cookie": "The only cookie we create and have control on is the session Cookie. It's used to prevent bots or spam.",
 
 		"galactae-tos": "Terms & Conditions"
 	}

@@ -18,12 +18,6 @@
 		},
 		"achieve-games": {
 			"description": "Suivez vos succès à travers les différentes bibliotheques de jeux."
-		},
-		"downstatus": {
-			"description": "Sachez si un service populaire fonctionne ou pas."
-		},
-		"dehash-me": {
-			"description": "Dehash.me a été créé afin de sensibiliser à la faiblesse de certains algorithmes de hashing.\nLe site possède son propre dictionnaire."
 		}
 	},
 	"privacy": {
@@ -45,9 +39,6 @@
 		"bots-data": "Adresse IP, cookie de session, date de la visite",
 		"bots-text": "sont utilisés afin de bloquer les bots et spammers. Ces données disparaitront automatiquement de nos serveurs en moins de quelques heures.",
 
-		"advertisement-title": "Publicité",
-		"advertisement-text": "Certains sites Dysnomia affichent de la publicité via Google Adsense. Nous n'avons aucun contrôle de la manière dont Google stocke et gère vos données, plus d'informations sur %url%.",
-
 		"language-title": "Traduction et gestion des langues",
 		"language-text": "Certaines sites Dysnomia ont un fonctionnement multi-langue. Nous utilisons un cookie afin de stocker votre préference entre vos visites.",
 		
@@ -59,8 +50,6 @@
 		"achieve-games-user-generic-text1": "Nous gardons en base de données les liens entre vos differents comptes de jeu afin de vous aider à vous reconnecter facilement. Nous gardons uniquement votre identifiant et votre nom d'utilisateur dans ce but.",
 		"achieve-games-user-generic-text2": "Nous mettons en cache les données publiques de chaque profil afin d'accelerer le chargement des statistiques des succès et d'alléger la charge sur les serveurs des bibliothèques de jeu, ce cache peut durer jusqu'a 3 mois après le dernier chargement de ces données depuis les API publiques.",
 		"achieve-games-cookie": "Le seul cookie que nous utilisons et gerons est le cookie de session. Il sert à empecher les bots ou le spam et à vous connecter à vos comptes.",
-		
-		"dehash-me-cookie": "Le seul cookie que nous utilisons et gerons est le cookie de session. Il sert à empecher les bots ou le spam.",
 
 		"galactae-tos": "Conditions générales d'utilisation"
 	}

@@ -98,19 +98,5 @@
 		"inSidebar": false,
 		"hasLogo": false,
 		"screenshots": 1
-	},
-	"dehash-me": {
-		"id": "dehash-me",
-		"name": "Dehash.me",
-		"links": [
-			{
-				"name": "Website",
-				"icon": "/img/website.webp",
-				"url": "https://dehash.me"
-			}
-		],
-		"inSidebar": false,
-		"hasLogo": false,
-		"screenshots": 1
 	}
 }
