@@ -3,7 +3,7 @@ name: Build & Test
 on: [push, pull_request]
 
 env:
-  node-version: 24
+  node-version: 26
 
 permissions:
   packages: write
